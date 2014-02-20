@@ -3,9 +3,11 @@ package kr.ac.postech.isoft.okbqa.sparql;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import com.clearnlp.dependency.DEPNode;
 import com.clearnlp.dependency.DEPTree;
@@ -31,6 +33,33 @@ public class SparqlTemplateGenerator {
 		return null;
 	}
 	
+	public static void collectDecendants(DEPNode subTreeRoot, List<DEPNode> container, int depth) {
+		if (depth != 0 && subTreeRoot.pos.startsWith("N") || subTreeRoot.pos.startsWith("V") || subTreeRoot.pos.startsWith("W")) {
+			container.add(subTreeRoot);
+		}
+		List<DEPNode> branches = subTreeRoot.getDependentNodeList();
+		for (DEPNode subTree : branches) {
+			collectDecendants(subTree, container, depth + 1);
+		}
+	}
+	
+	public static void collectAncestors(DEPNode leaf, List<DEPNode> container, int depth) {
+		if (depth != 0 && leaf != null && leaf.pos.startsWith("N") || leaf.pos.startsWith("V") || leaf.pos.startsWith("W")) {
+			container.add(leaf);
+		} else if (leaf != null) {
+			collectAncestors(leaf.getHead(), container, depth + 1);
+		}
+	}
+	
+	 public static <T> List<T> union(List<T> list1, List<T> list2) {
+	        Set<T> set = new HashSet<T>();
+
+	        set.addAll(list1);
+	        set.addAll(list2);
+
+	        return new ArrayList<T>(set);
+	    }
+	
 	public static void getPatterns(String question) {
 		DEPTree parsed = qp.process(question);
 		DEPTree parsedClone = parsed.clone();
@@ -45,6 +74,7 @@ public class SparqlTemplateGenerator {
 		rules = new HashMap<String, List>();
 		
 		List<String> posPtns = new ArrayList<String>();
+		// noun, noun phrases
 		posPtns.add("NN");
 		posPtns.add("NNS");
 		posPtns.add("NNP");
@@ -55,6 +85,16 @@ public class SparqlTemplateGenerator {
 		posPtns.add("VBN");
 		posPtns.add("VBP");
 		posPtns.add("VBZ");
+		
+		// adjectives
+		posPtns.add("JJ");
+		posPtns.add("JJR");
+		posPtns.add("JJS");
+		
+		// wh-s
+		posPtns.add("WDT");
+		posPtns.add("WP");
+		posPtns.add("WRB");
 		
 		List<String> depPtns = new ArrayList<String>();
 		depPtns.add("");
@@ -68,6 +108,11 @@ public class SparqlTemplateGenerator {
 		//List<String> collectedNPs = new ArrayList<String>();
 		List<DEPNode> collectedVNodes = new ArrayList<DEPNode>();
 		List<DEPNode> collectedNNodes = new ArrayList<DEPNode>();
+		List<DEPNode> collectedJVNodes = new ArrayList<DEPNode>();
+		List<DEPNode> collectedJNNodes = new ArrayList<DEPNode>();
+		List<DEPNode> collectedArgNodes = new ArrayList<DEPNode>();
+		List<DEPNode> collectedLATNodes = new ArrayList<DEPNode>();
+		
 		rules.put("pos", posPtns);
 		rules.put("dep", depPtns);
 		rules.put("syn", synPtns);
@@ -75,37 +120,61 @@ public class SparqlTemplateGenerator {
 		
 		// rule1 : collect nouns that its head is not a noun.
 		// rule2 : collect verbs
-		// root 부터 순회를 하는데,
+		// traverse nodes
 		
+		
+//		it = collectedNNodes.iterator();
+//		while(it.hasNext()){
+//			DEPNode currNode=it.next();
+//			for(DEPNode DN: currNode.getDependentNodeList())
+//			{
+//				if(DN.pos.contains(s)
+//			}
+//		}
+		DEPNode root = parsed.getRoots().get(0);
 		// on pos level.
 		Iterator<DEPNode> it = parsed.iterator();
 		while (it.hasNext()) {
 			DEPNode currNode = it.next();
 			if (posPtns.contains(currNode.pos)) {
+				
 				 if (currNode.pos.startsWith("N")) {
 					DEPNode head = currNode.getHead();
 					if (!head.pos.startsWith("N")) {
+						collectedLATNodes.add(currNode);
+					}
+				
+				} else if (currNode.pos.startsWith("V")) {
+					//List<DEPNode> roots = parsed.getRoots();
+					if (!"aux".equals(currNode.getHeadArc().getLabel()))
+						collectedVNodes.add(currNode);
+				
+				} else if (currNode.pos.startsWith("J")) {
+					DEPNode head = currNode.getHead();
+					if (head.pos.startsWith("N")) {
+						collectedJNNodes.add(currNode);
+					} else if (head.pos.startsWith("V")) {
+						collectedJVNodes.add(currNode);
+					}
+				} else if (currNode.pos.startsWith("W")) {
+					DEPNode head = currNode.getHead();
+					if (head.pos.startsWith("N")) {
 						collectedNNodes.add(currNode);
 					}
-				 } else if (currNode.pos.startsWith("V")) {
-					List<DEPNode> roots = parsed.getRoots();
-					//if (roots.contains(currNode)) {
-					collectedVNodes.add(currNode);
-					//}
-				 }
+				}
+			}
+			if (currNode.getSLabel(root) != null && currNode.getSLabel(root).matches("^.*A[0-9].*")) {
+				collectedArgNodes.add(currNode);
 			}
 		}
-		
-		// on dependency level.
-		it = parsed.iterator();
-		DEPNode root = parsed.getRoots().get(0);
-		while (it.hasNext()) {
-			DEPNode currNode = it.next();
-			
-			//System.out.println(currNode.getSLabel(root));
-			for (DEPNode currRoot : collectedVNodes) {
-				System.out.println(currNode.getSLabel(currRoot));
-			}
+		System.out.println(parsed.toStringSRL() + "\n");
+		List<DEPNode> decendantForLatNode = new ArrayList<DEPNode>();
+		List<DEPNode> headForLatNode = new ArrayList<DEPNode>();
+		for (DEPNode latNode : collectedLATNodes) {
+			collectDecendants(latNode, decendantForLatNode, 0);
+			collectAncestors(latNode, headForLatNode, 0);
 		}
+		List<DEPNode> union = union(decendantForLatNode, union(headForLatNode, collectedArgNodes));
+		System.out.println("123123");
 	}
 }
