@@ -1,6 +1,7 @@
 package kr.ac.postech.isoft.okbqa.sparql;
 
 import java.io.IOException;
+import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -34,7 +35,7 @@ public class SparqlTemplateGenerator {
 	}
 	
 	public static void collectDecendants(DEPNode subTreeRoot, List<DEPNode> container, int depth) {
-		if (depth != 0 && subTreeRoot.pos.startsWith("N") || subTreeRoot.pos.startsWith("V") || subTreeRoot.pos.startsWith("W")) {
+		if (depth != 0 && subTreeRoot.pos.startsWith("N") || subTreeRoot.pos.startsWith("V") || subTreeRoot.pos.startsWith("W") || subTreeRoot.pos.startsWith("J")) {
 			container.add(subTreeRoot);
 		}
 		List<DEPNode> branches = subTreeRoot.getDependentNodeList();
@@ -44,10 +45,14 @@ public class SparqlTemplateGenerator {
 	}
 	
 	public static void collectAncestors(DEPNode leaf, List<DEPNode> container, int depth) {
-		if (depth != 0 && leaf != null && leaf.pos.startsWith("N") || leaf.pos.startsWith("V") || leaf.pos.startsWith("W")) {
+		try {
+		if ((depth != 0 && leaf != null && leaf.pos != null) && (leaf.pos.startsWith("N") || leaf.pos.startsWith("V") || leaf.pos.startsWith("W") || leaf.pos.startsWith("J"))) {
 			container.add(leaf);
 		} else if (leaf != null) {
 			collectAncestors(leaf.getHead(), container, depth + 1);
+		}
+		} catch(NullPointerException e) {
+			System.out.println("123123");
 		}
 	}
 	
@@ -60,7 +65,7 @@ public class SparqlTemplateGenerator {
 	        return new ArrayList<T>(set);
 	    }
 	
-	public static void getPatterns(String question) {
+	public static void getPatterns(String question, Writer r) throws IOException {
 		DEPTree parsed = qp.process(question);
 		DEPTree parsedClone = parsed.clone();
 		
@@ -167,7 +172,7 @@ public class SparqlTemplateGenerator {
 				collectedArgNodes.add(currNode);
 			}
 		}
-		System.out.println(parsed.toStringSRL() + "\n");
+		System.out.println(parsed.toStringSRL() + "\n"); 
 		List<DEPNode> decendantForLatNode = new ArrayList<DEPNode>();
 		List<DEPNode> headForLatNode = new ArrayList<DEPNode>();
 		for (DEPNode latNode : collectedLATNodes) {
@@ -175,6 +180,16 @@ public class SparqlTemplateGenerator {
 			collectAncestors(latNode, headForLatNode, 0);
 		}
 		List<DEPNode> union = union(decendantForLatNode, union(headForLatNode, collectedArgNodes));
-		System.out.println("123123");
+		r.append("-------LAT-------\n");
+		for(DEPNode node : collectedLATNodes) {
+			r.append(node.toStringSRL() + "\n");
+		}
+		r.append("-------/LAT------\n");
+		
+		for(DEPNode node: union)
+		{
+			r.append(node.toStringSRL()+"\n");
+			//System.out.println(node.toStringSRL()+"\n");
+		}
 	}
 }

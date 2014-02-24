@@ -1,0 +1,2225 @@
+???Give me all cosmonauts.
+-------LAT-------
+4	cosmonauts	cosmonaut	NNS	p2=VBZ	1	dobj	1:A1
+-------/LAT------
+4	cosmonauts	cosmonaut	NNS	p2=VBZ	1	dobj	1:A1
+1	???Give	???give	VB	p2=IN|pb=???give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2
+========================================1
+In which country does the Nile start?
+-------LAT-------
+3	country	country	NN	_	1	pcomp	_
+6	Nile	nile	NNP	_	7	nsubj	7:A1=PPT
+-------/LAT------
+7	start	start	VB	p2=NN|pb=start.01	0	root	_
+2	which	which	WDT	_	3	det	_
+6	Nile	nile	NNP	_	7	nsubj	7:A1=PPT
+========================================2
+When is the movie Worst Case Scenario going to be in cinemas in the Netherlands?
+-------LAT-------
+4	movie	movie	NN	_	8	nsubj	10:A1=PPT
+12	cinemas	cinema	NNS	p2=NNP	11	pobj	_
+15	Netherlands	netherlands	NNP	_	13	pobj	_
+-------/LAT------
+6	Case	case	NNP	p2=NN	7	nn	_
+5	Worst	bad	JJS	p2=NNP	7	amod	_
+12	cinemas	cinema	NNS	p2=NNP	11	pobj	_
+7	Scenario	scenario	NN	p2=NNP	4	appos	_
+15	Netherlands	netherlands	NNP	_	13	pobj	_
+8	going	go	VBG	pb=go.04	0	root	_
+10	be	be	VB	pb=be.01	8	xcomp	_
+========================================3
+Which German cities have more than 250000 inhabitants?
+-------LAT-------
+3	cities	city	NNS	_	4	nsubj	4:A0=PAG
+8	inhabitants	inhabitant	NNS	_	4	dobj	4:A1=PPT
+-------/LAT------
+1	Which	which	WDT	_	3	det	_
+3	cities	city	NNS	_	4	nsubj	4:A0=PAG
+4	have	have	VBP	pb=have.03	0	root	_
+8	inhabitants	inhabitant	NNS	_	4	dobj	4:A1=PPT
+2	German	german	JJ	_	3	amod	_
+5	more	more	JJR	_	7	amod	_
+========================================4
+Who was John F. Kennedy's vice president?
+-------LAT-------
+8	president	president	NN	_	2	attr	2:A2=PRD
+-------/LAT------
+8	president	president	NN	_	2	attr	2:A2=PRD
+4	F.	f.	NNP	_	5	nn	_
+1	Who	who	WP	_	2	nsubj	2:R-A1
+7	vice	vice	NN	_	8	nn	_
+2	was	be	VBD	pb=be.01	0	root	_
+3	John	john	NNP	_	5	nn	_
+5	Kennedy	kennedy	NNP	_	8	poss	_
+========================================5
+Who is the mayor of Berlin?
+-------LAT-------
+4	mayor	mayor	NN	_	2	attr	2:A2=PRD
+6	Berlin	berlin	NNP	_	5	pobj	_
+-------/LAT------
+6	Berlin	berlin	NNP	_	5	pobj	_
+1	Who	who	WP	_	2	nsubj	2:R-A1
+4	mayor	mayor	NN	_	2	attr	2:A2=PRD
+2	is	be	VBZ	pb=be.01	0	root	_
+========================================6
+How many students does the Free University in Amsterdam have?
+-------LAT-------
+3	students	student	NNS	_	10	dobj	10:R-A1
+7	University	university	NNP	_	10	nsubj	10:A0=PAG
+9	Amsterdam	amsterdam	NNP	_	8	pobj	_
+-------/LAT------
+1	How	how	WRB	_	2	advmod	_
+3	students	student	NNS	_	10	dobj	10:R-A1
+2	many	many	JJ	_	3	amod	_
+10	have	have	VB	p2=VBP|pb=have.03	0	root	_
+6	Free	free	NNP	_	7	nn	_
+7	University	university	NNP	_	10	nsubj	10:A0=PAG
+9	Amsterdam	amsterdam	NNP	_	8	pobj	_
+========================================7
+What is the second highest mountain on Earth?
+-------LAT-------
+6	mountain	mountain	NN	_	2	nsubj	2:A1=PPT
+8	Earth	earth	NNP	_	7	pobj	_
+-------/LAT------
+5	highest	high	JJS	_	6	amod	_
+1	What	what	WP	_	2	attr	2:R-A2
+4	second	#ord#	JJ	p2=RB	5	advmod	_
+2	is	be	VBZ	pb=be.01	0	root	_
+8	Earth	earth	NNP	_	7	pobj	_
+6	mountain	mountain	NN	_	2	nsubj	2:A1=PPT
+========================================8
+Give me all professional skateboarders from Sweden.
+-------LAT-------
+5	skateboarders	skateboarder	NNS	_	1	dobj	1:A1=PPT
+7	Sweden	sweden	NNP	_	6	pobj	_
+-------/LAT------
+4	professional	professional	JJ	_	5	amod	_
+7	Sweden	sweden	NNP	_	6	pobj	_
+1	Give	give	VB	pb=give.01	0	root	_
+5	skateboarders	skateboarder	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================9
+When was Alberta admitted as province?
+-------LAT-------
+3	Alberta	alberta	NNP	_	4	nsubjpass	4:A1=PPT
+6	province	province	NN	_	5	pobj	_
+-------/LAT------
+3	Alberta	alberta	NNP	_	4	nsubjpass	4:A1=PPT
+4	admitted	admit	VBN	p2=VBN|pb=admit.02	0	root	_
+========================================10
+To which countries does the Himalayan mountain system extend?
+-------LAT-------
+3	countries	country	NNS	_	9	dobj	9:R-A1
+8	system	system	NN	_	9	nsubj	9:A0=PAG
+-------/LAT------
+7	mountain	mountain	NN	p2=VB	8	nn	_
+2	which	which	WDT	_	3	det	_
+9	extend	extend	VB	p2=NN|pb=extend.01	0	root	_
+6	Himalayan	himalayan	NNP	p2=JJ	8	nn	_
+3	countries	country	NNS	_	9	dobj	9:R-A1
+8	system	system	NN	_	9	nsubj	9:A0=PAG
+========================================11
+Give me a list of all bandleaders that play trumpet.
+-------LAT-------
+4	list	list	NN	_	1	dobj	1:A1=PPT
+7	bandleaders	bandleader	NNS	_	5	pobj	9:A0=PAG
+10	trumpet	trumpet	NN	_	9	dobj	9:A1=PPT
+-------/LAT------
+10	trumpet	trumpet	NN	_	9	dobj	9:A1=PPT
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+8	that	that	WDT	_	9	nsubj	9:R-A0
+7	bandleaders	bandleader	NNS	_	5	pobj	9:A0=PAG
+4	list	list	NN	_	1	dobj	1:A1=PPT
+9	play	play	VBP	pb=play.01	7	rcmod	_
+========================================12
+Which countries have more than ten caves?
+-------LAT-------
+2	countries	country	NNS	_	3	nsubj	3:R-A0
+7	caves	cave	NNS	_	3	dobj	3:A1=PPT
+-------/LAT------
+3	have	have	VBP	pb=have.03	0	root	_
+1	Which	which	WDT	_	2	det	_
+4	more	more	JJR	_	6	amod	_
+7	caves	cave	NNS	_	3	dobj	3:A1=PPT
+2	countries	country	NNS	_	3	nsubj	3:R-A0
+========================================13
+What is the total amount of men and women serving in the FDNY?
+-------LAT-------
+5	amount	amount	NN	_	10	nsubj	10:A0=PAG
+7	men	man	NNS	_	6	pobj	_
+13	FDNY	fdny	NNP	p2=NN	11	pobj	_
+-------/LAT------
+1	What	what	WP	_	10	dobj	10:R-A1
+5	amount	amount	NN	_	10	nsubj	10:A0=PAG
+7	men	man	NNS	_	6	pobj	_
+4	total	total	JJ	_	5	amod	_
+9	women	woman	NNS	_	7	conj	_
+10	serving	serve	VBG	pb=serve.01	0	root	_
+========================================14
+Who produces Orangina?
+-------LAT-------
+3	Orangina	orangina	NNP	p2=RP	2	dobj	2:A1
+-------/LAT------
+2	produces	produce	VBZ	pb=produce.01	0	root	_
+1	Who	who	WP	_	2	nsubj	2:R-A0
+3	Orangina	orangina	NNP	p2=RP	2	dobj	2:A1
+========================================15
+Who is the Formula 1 race driver with the most races?
+-------LAT-------
+7	driver	driver	NN	_	2	attr	2:A2=PRD
+11	races	race	NNS	_	8	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A1
+2	is	be	VBZ	pb=be.01	0	root	_
+6	race	race	NN	_	7	nn	_
+7	driver	driver	NN	_	2	attr	2:A2=PRD
+10	most	most	JJS	_	11	amod	_
+11	races	race	NNS	_	8	pobj	_
+4	Formula	formula	NNP	p2=JJ	7	nn	_
+========================================16
+Give me all world heritage sites designated within the past two years.
+-------LAT-------
+6	sites	site	NNS	_	1	dobj	1:A1=PPT;7:A1=PPT
+12	years	year	NNS	_	8	pobj	_
+-------/LAT------
+10	past	past	JJ	_	12	amod	_
+12	years	year	NNS	_	8	pobj	_
+7	designated	designate	VBN	pb=designate.01	6	partmod	_
+5	heritage	heritage	NN	_	6	nn	_
+6	sites	site	NNS	_	1	dobj	1:A1=PPT;7:A1=PPT
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	world	world	NN	_	5	nn	_
+========================================17
+Who is the youngest player in the Premier League?
+-------LAT-------
+5	player	player	NN	_	2	attr	2:A2=PRD
+9	League	league	NNP	_	6	pobj	_
+-------/LAT------
+8	Premier	premier	NNP	_	9	nn	_
+1	Who	who	WP	_	2	nsubj	2:R-A1
+9	League	league	NNP	_	6	pobj	_
+2	is	be	VBZ	pb=be.01	0	root	_
+5	player	player	NN	_	2	attr	2:A2=PRD
+4	youngest	young	JJS	_	5	amod	_
+========================================18
+Give me all members of Prodigy.
+-------LAT-------
+4	members	member	NNS	_	1	dobj	1:A1=PPT
+6	Prodigy	prodigy	NNP	p2=NN	5	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+6	Prodigy	prodigy	NNP	p2=NN	5	pobj	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	members	member	NNS	_	1	dobj	1:A1=PPT
+========================================19
+What is the longest river?
+-------LAT-------
+5	river	river	NN	_	2	nsubj	2:A1=PPT
+-------/LAT------
+5	river	river	NN	_	2	nsubj	2:A1=PPT
+1	What	what	WP	_	2	attr	2:R-A2
+2	is	be	VBZ	pb=be.01	0	root	_
+4	longest	long	JJS	_	5	amod	_
+========================================20
+Does Breaking Bad have more episodes than Game of Thrones?
+-------LAT-------
+6	episodes	episode	NNS	_	4	dobj	4:A1=PPT
+8	Game	game	NNP	p2=NN	7	pobj	_
+10	Thrones	throne	NNPS	p2=NNP	9	pobj	_
+-------/LAT------
+6	episodes	episode	NNS	_	4	dobj	4:A1=PPT
+5	more	more	JJR	_	6	amod	_
+10	Thrones	throne	NNPS	p2=NNP	9	pobj	_
+8	Game	game	NNP	p2=NN	7	pobj	_
+4	have	have	VB	p2=VBP|pb=have.03	2	xcomp	2:A1=PPT
+========================================21
+Give me all cars that are produced in Germany.
+-------LAT-------
+4	cars	car	NNS	_	1	dobj	1:A1=PPT;7:A1
+9	Germany	germany	NNP	_	8	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+4	cars	car	NNS	_	1	dobj	1:A1=PPT;7:A1
+5	that	that	WDT	_	7	nsubjpass	7:R-A1
+6	are	be	VBP	_	7	auxpass	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+9	Germany	germany	NNP	_	8	pobj	_
+7	produced	produce	VBN	pb=produce.01	4	rcmod	_
+========================================22
+What were the main discoveries of the Mars rover Curiosity?
+-------LAT-------
+5	discoveries	discovery	NNS	_	2	nsubj	2:A1=PPT
+10	Curiosity	curiosity	NN	p2=NNP	6	pobj	_
+-------/LAT------
+1	What	what	WP	_	2	attr	2:R-A2
+10	Curiosity	curiosity	NN	p2=NNP	6	pobj	_
+5	discoveries	discovery	NNS	_	2	nsubj	2:A1=PPT
+4	main	main	JJ	_	5	amod	_
+2	were	be	VBD	pb=be.01	0	root	_
+9	rover	rover	NN	_	10	nn	_
+8	Mars	mars	NNP	_	10	nn	_
+========================================23
+Give me all people that were born in Vienna and died in Berlin.
+-------LAT-------
+4	people	people	NNS	_	1	dobj	1:A1=PPT;7:A1=PPT;11:A1=PPT
+9	Vienna	vienna	NNP	_	8	pobj	_
+13	Berlin	berlin	NNP	_	12	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+4	people	people	NNS	_	1	dobj	1:A1=PPT;7:A1=PPT;11:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+11	died	die	VBD	pb=die.01	7	conj	_
+6	were	be	VBD	_	7	auxpass	_
+7	born	bear	VBN	pb=bear.02	4	rcmod	_
+13	Berlin	berlin	NNP	_	12	pobj	_
+9	Vienna	vienna	NNP	_	8	pobj	_
+5	that	that	WDT	_	7	nsubjpass	7:R-A1;11:R-A1
+========================================24
+Is proinsulin a protein?
+-------LAT-------
+4	protein	protein	NN	_	2	dobj	2:A1
+-------/LAT------
+2	proinsulin	proinsulin	VB	p2=VBG|pb=proinsulin.01	1	xcomp	1:A1=PPT
+========================================25
+How tall is Michael Jordan?
+-------LAT-------
+5	Jordan	jordan	NNP	_	3	nsubj	3:A1=PPT
+-------/LAT------
+2	tall	tall	JJ	p2=NN	3	acomp	3:R-A2
+3	is	be	VBZ	pb=be.01	0	root	_
+4	Michael	michael	NNP	_	5	nn	_
+5	Jordan	jordan	NNP	_	3	nsubj	3:A1=PPT
+========================================26
+What is the capital of Canada?
+-------LAT-------
+4	capital	capital	NN	_	2	nsubj	2:A1=PPT
+6	Canada	canada	NNP	_	5	pobj	_
+-------/LAT------
+2	is	be	VBZ	pb=be.01	0	root	_
+6	Canada	canada	NNP	_	5	pobj	_
+1	What	what	WP	_	2	attr	2:R-A2
+4	capital	capital	NN	_	2	nsubj	2:A1=PPT
+========================================27
+Who is the governor of Wyoming?
+-------LAT-------
+4	governor	governor	NN	_	2	attr	2:A2=PRD
+6	Wyoming	wyoming	NNP	_	5	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A1
+4	governor	governor	NN	_	2	attr	2:A2=PRD
+2	is	be	VBZ	pb=be.01	0	root	_
+6	Wyoming	wyoming	NNP	_	5	pobj	_
+========================================28
+Do Prince Harry and Prince William have the same mother?
+-------LAT-------
+3	Harry	harry	NNP	_	7	nsubj	7:A0=PAG
+10	mother	mother	NN	_	7	dobj	7:A1=PPT
+-------/LAT------
+9	same	same	JJ	_	10	amod	_
+6	William	william	NNP	_	3	conj	_
+5	Prince	prince	NNP	_	6	nn	_
+2	Prince	prince	NNP	_	3	nn	_
+3	Harry	harry	NNP	_	7	nsubj	7:A0=PAG
+10	mother	mother	NN	_	7	dobj	7:A1=PPT
+7	have	have	VBP	pb=have.03	0	root	_
+========================================29
+Who was the father of Queen Elizabeth II?
+-------LAT-------
+4	father	father	NN	_	2	attr	2:A2=PRD
+8	II	ii	NNP	_	5	pobj	_
+-------/LAT------
+4	father	father	NN	_	2	attr	2:A2=PRD
+2	was	be	VBD	pb=be.01	0	root	_
+6	Queen	queen	NNP	_	8	nn	_
+7	Elizabeth	elizabeth	NNP	_	8	nn	_
+1	Who	who	WP	p2=NNP	2	nsubj	2:R-A1
+8	II	ii	NNP	_	5	pobj	_
+========================================30
+Which U.S. state has been admitted latest?
+-------LAT-------
+3	state	state	NN	_	6	nsubjpass	6:A0=PAG
+-------/LAT------
+3	state	state	NN	_	6	nsubjpass	6:A0=PAG
+2	U.S.	u.s.	NNP	_	3	nn	_
+6	admitted	admit	VBN	pb=admit.02	0	root	_
+7	latest	late	JJS	p2=RB	6	advmod	6:A1=PPT
+1	Which	which	WDT	_	6	dobj	6:R-A2
+========================================31
+How many languages are spoken in Turkmenistan?
+-------LAT-------
+3	languages	language	NNS	_	5	nsubjpass	5:A1=PPT
+7	Turkmenistan	turkmenistan	NNP	_	6	pobj	_
+-------/LAT------
+2	many	many	JJ	_	3	amod	_
+5	spoken	speak	VBN	pb=speak.01	0	root	_
+3	languages	language	NNS	_	5	nsubjpass	5:A1=PPT
+1	How	how	WRB	_	2	advmod	_
+========================================32
+Sean Parnell is the governor of which U.S. state?
+-------LAT-------
+2	Parnell	parnell	NNP	_	3	nsubj	3:A1=PPT
+5	governor	governor	NN	_	3	attr	3:A2=PRD
+9	state	state	NN	_	6	pobj	_
+-------/LAT------
+5	governor	governor	NN	_	3	attr	3:A2=PRD
+3	is	be	VBZ	pb=be.01	0	root	_
+2	Parnell	parnell	NNP	_	3	nsubj	3:A1=PPT
+1	Sean	sean	NNP	p2=JJ	2	nn	_
+8	U.S.	u.s.	NNP	_	9	nn	_
+9	state	state	NN	_	6	pobj	_
+7	which	which	WDT	_	9	det	_
+========================================33
+Give me all movies directed by Francis Ford Coppola.
+-------LAT-------
+4	movies	movie	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+9	Coppola	coppola	NNP	_	6	pobj	_
+-------/LAT------
+9	Coppola	coppola	NNP	_	6	pobj	_
+7	Francis	francis	NNP	_	9	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+8	Ford	ford	NNP	_	9	nn	_
+4	movies	movie	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+5	directed	direct	VBN	pb=direct.01	4	partmod	_
+========================================34
+Give me all actors starring in movies directed by William Shatner.
+-------LAT-------
+4	actors	actor	NNS	_	1	dobj	1:A1=PPT;5:A1=PAG
+7	movies	movie	NNS	_	6	pobj	8:A1=PPT
+11	Shatner	shatner	NNP	_	9	pobj	_
+-------/LAT------
+4	actors	actor	NNS	_	1	dobj	1:A1=PPT;5:A1=PAG
+10	William	william	NNP	_	11	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+8	directed	direct	VBN	pb=direct.01	7	partmod	_
+7	movies	movie	NNS	_	6	pobj	8:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+11	Shatner	shatner	NNP	_	9	pobj	_
+5	starring	star	VBG	pb=star.01	4	partmod	_
+========================================35
+Are tree frogs a type of amphibian?
+-------LAT-------
+5	type	type	NN	_	3	dobj	3:A1
+7	amphibian	amphibian	NN	p2=JJ	6	pobj	_
+-------/LAT------
+2	tree	tree	VB	_	3	nsubj	3:A0
+5	type	type	NN	_	3	dobj	3:A1
+3	frogs	frog	VBZ	pb=frog.01	0	root	_
+7	amphibian	amphibian	NN	p2=JJ	6	pobj	_
+========================================36
+What is the birth name of Angela Merkel?
+-------LAT-------
+5	name	name	NN	_	2	nsubj	2:A1=PPT
+8	Merkel	merkel	NNP	_	6	pobj	_
+-------/LAT------
+4	birth	birth	NN	p2=JJ	5	nn	_
+8	Merkel	merkel	NNP	_	6	pobj	_
+7	Angela	angela	NNP	_	8	nn	_
+1	What	what	WP	_	2	attr	2:R-A2
+2	is	be	VBZ	pb=be.01	0	root	_
+5	name	name	NN	_	2	nsubj	2:A1=PPT
+========================================37
+Give me all Methodist politicians.
+-------LAT-------
+5	politicians	politician	NNS	_	1	dobj	1:A1=PPT
+-------/LAT------
+4	Methodist	methodist	NNP	p2=JJ	5	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+5	politicians	politician	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================38
+How often did Jane Fonda marry?
+-------LAT-------
+5	Fonda	fonda	NNP	_	6	nsubj	6:A1=PPT
+-------/LAT------
+5	Fonda	fonda	NNP	_	6	nsubj	6:A1=PPT
+4	Jane	jane	NNP	_	5	nn	_
+6	marry	marry	VB	pb=marry.01	0	root	_
+========================================39
+Give me all Australian nonprofit organizations.
+-------LAT-------
+6	organizations	organization	NNS	_	1	dobj	1:A1=PPT
+-------/LAT------
+4	Australian	australian	JJ	_	6	amod	_
+5	nonprofit	nonprofit	JJ	_	6	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+6	organizations	organization	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================40
+In which military conflicts did Lawrence of Arabia participate?
+-------LAT-------
+4	conflicts	conflict	NNS	_	5	nsubj	5:A0=PAG
+6	Lawrence	lawrence	NNP	_	9	nsubj	9:A0=PAG
+8	Arabia	arabia	NNP	_	7	pobj	_
+-------/LAT------
+6	Lawrence	lawrence	NNP	_	9	nsubj	9:A0=PAG
+4	conflicts	conflict	NNS	_	5	nsubj	5:A0=PAG
+9	participate	participate	VB	p2=NN|pb=participate.01	5	ccomp	5:A1=PPT
+8	Arabia	arabia	NNP	_	7	pobj	_
+3	military	military	JJ	p2=NN	4	amod	_
+5	did	do	VBD	pb=do.02	0	root	_
+========================================41
+Who developed Minecraft?
+-------LAT-------
+3	Minecraft	minecraft	NNP	p2=PRP	2	dobj	2:A1=LOC
+-------/LAT------
+2	developed	develop	VBD	p2=VBN|pb=develop.01	0	root	_
+3	Minecraft	minecraft	NNP	p2=PRP	2	dobj	2:A1=LOC
+1	Who	who	WP	_	2	nsubj	2:R-A2
+========================================42
+What is the melting point of copper?
+-------LAT-------
+5	point	point	NN	_	2	nsubj	2:A1=PPT
+7	copper	copper	NN	_	6	pobj	_
+-------/LAT------
+4	melting	melting	NN	p2=VBG	5	nn	_
+2	is	be	VBZ	pb=be.01	0	root	_
+7	copper	copper	NN	_	6	pobj	_
+5	point	point	NN	_	2	nsubj	2:A1=PPT
+1	What	what	WP	_	2	attr	2:R-A2
+========================================43
+Give me all sister cities of Brno.
+-------LAT-------
+5	cities	city	NNS	_	1	dobj	1:A1=PPT
+7	Brno	brno	NNP	_	6	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+7	Brno	brno	NNP	_	6	pobj	_
+5	cities	city	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	sister	sister	NN	p2=JJ	5	nn	_
+========================================44
+How many inhabitants does Maribor have?
+-------LAT-------
+3	inhabitants	inhabitant	NNS	_	6	dobj	6:R-A1
+5	Maribor	maribor	NNP	p2=PRP	6	nsubj	6:A0=PAG
+-------/LAT------
+1	How	how	WRB	_	2	advmod	_
+2	many	many	JJ	_	3	amod	_
+5	Maribor	maribor	NNP	p2=PRP	6	nsubj	6:A0=PAG
+3	inhabitants	inhabitant	NNS	_	6	dobj	6:R-A1
+6	have	have	VB	pb=have.03	0	root	_
+========================================45
+Give me all companies in Munich.
+-------LAT-------
+4	companies	company	NNS	_	1	dobj	1:A1=PPT
+6	Munich	munich	NNP	_	5	pobj	_
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+6	Munich	munich	NNP	_	5	pobj	_
+1	Give	give	VB	pb=give.01	0	root	_
+4	companies	company	NNS	_	1	dobj	1:A1=PPT
+========================================46
+How tall is Claudia Schiffer?
+-------LAT-------
+5	Schiffer	schiffer	NNP	_	3	nsubj	3:A1=PPT
+-------/LAT------
+2	tall	tall	JJ	_	3	acomp	3:R-A2
+3	is	be	VBZ	pb=be.01	0	root	_
+4	Claudia	claudia	NNP	p2=FW	5	nn	_
+5	Schiffer	schiffer	NNP	_	3	nsubj	3:A1=PPT
+========================================47
+List all games by GMT.
+-------LAT-------
+3	games	game	NNS	_	1	dobj	1:A1=PPT
+5	GMT	gmt	NNP	_	4	pobj	_
+-------/LAT------
+1	List	list	VB	p2=NNP|pb=list.01	0	root	_
+3	games	game	NNS	_	1	dobj	1:A1=PPT
+========================================48
+Who founded Intel?
+-------LAT-------
+3	Intel	intel	NNP	_	2	dobj	2:A1=PPT
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A0
+2	founded	found	VBD	p2=VBN|pb=found.01	0	root	_
+3	Intel	intel	NNP	_	2	dobj	2:A1=PPT
+========================================49
+Who is the husband of Amanda Palmer?
+-------LAT-------
+4	husband	husband	NN	_	2	nsubj	2:A1=PPT
+7	Palmer	palmer	NNP	_	5	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	attr	2:R-A2
+2	is	be	VBZ	pb=be.01	0	root	_
+6	Amanda	amanda	NNP	_	7	nn	_
+7	Palmer	palmer	NNP	_	5	pobj	_
+4	husband	husband	NN	_	2	nsubj	2:A1=PPT
+========================================50
+Give me all breeds of the German Shepherd dog.
+-------LAT-------
+4	breeds	breed	NNS	_	1	dobj	1:A1=PPT
+9	dog	dog	NN	p2=NNP	5	pobj	_
+-------/LAT------
+8	Shepherd	shepherd	NNP	p2=JJ	9	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+9	dog	dog	NN	p2=NNP	5	pobj	_
+7	German	german	JJ	p2=NNP	9	amod	_
+4	breeds	breed	NNS	_	1	dobj	1:A1=PPT
+========================================51
+Which cities does the Weser flow through?
+-------LAT-------
+2	cities	city	NNS	_	7	pobj	_
+5	Weser	weser	NNP	p2=JJR	6	nsubj	6:A1=PPT
+-------/LAT------
+6	flow	flow	VB	p2=NN|pb=flow.01	0	root	_
+1	Which	which	WDT	_	2	det	_
+5	Weser	weser	NNP	p2=JJR	6	nsubj	6:A1=PPT
+========================================52
+Which countries are connected by the Rhine?
+-------LAT-------
+2	countries	country	NNS	_	4	nsubjpass	4:R-A1
+7	Rhine	rhine	NNP	_	5	pobj	_
+-------/LAT------
+4	connected	connect	VBN	pb=connect.01	0	root	_
+5	by	by	IN	_	4	agent	4:A0=PAG
+2	countries	country	NNS	_	4	nsubjpass	4:R-A1
+1	Which	which	WDT	_	2	det	_
+========================================53
+Which professional surfers were born in Australia?
+-------LAT-------
+3	surfers	surfer	NNS	_	5	nsubjpass	5:R-A1
+7	Australia	australia	NNP	_	6	pobj	_
+-------/LAT------
+2	professional	professional	JJ	_	3	amod	_
+3	surfers	surfer	NNS	_	5	nsubjpass	5:R-A1
+5	born	bear	VBN	pb=bear.02	0	root	_
+1	Which	which	WDT	_	3	det	_
+========================================54
+What is the average temperature on Hawaii?
+-------LAT-------
+5	temperature	temperature	NN	_	2	nsubj	2:A1=PPT
+7	Hawaii	hawaii	NNP	_	6	pobj	_
+-------/LAT------
+2	is	be	VBZ	pb=be.01	0	root	_
+7	Hawaii	hawaii	NNP	_	6	pobj	_
+5	temperature	temperature	NN	_	2	nsubj	2:A1=PPT
+1	What	what	WP	_	2	attr	2:R-A2
+4	average	average	JJ	_	5	amod	_
+========================================55
+In which UK city are the headquarters of the MI6?
+-------LAT-------
+4	city	city	NN	_	5	nsubj	5:A1=PPT
+7	headquarters	headquarters	NN	p2=NNS	5	attr	5:A2=PRD
+10	MI6	mi6	NNP	p2=NN	8	pobj	_
+-------/LAT------
+7	headquarters	headquarters	NN	p2=NNS	5	attr	5:A2=PRD
+10	MI6	mi6	NNP	p2=NN	8	pobj	_
+4	city	city	NN	_	5	nsubj	5:A1=PPT
+3	UK	uk	NNP	_	4	nn	_
+5	are	be	VBP	pb=be.01	0	root	_
+========================================56
+Which other weapons did the designer of the Uzi develop?
+-------LAT-------
+3	weapons	weapon	NNS	_	10	dobj	10:R-A1
+6	designer	designer	NN	_	10	nsubj	10:A0=PAG
+9	Uzi	uzi	NNP	p2=NNPS	7	pobj	_
+-------/LAT------
+2	other	other	JJ	_	3	amod	_
+3	weapons	weapon	NNS	_	10	dobj	10:R-A1
+6	designer	designer	NN	_	10	nsubj	10:A0=PAG
+10	develop	develop	VB	p2=NN|pb=develop.02	0	root	_
+1	Which	which	WDT	_	3	det	_
+9	Uzi	uzi	NNP	p2=NNPS	7	pobj	_
+========================================57
+Who created Goofy?
+-------LAT-------
+3	Goofy	goofy	NNP	p2=JJ	2	dobj	2:A1=PPT
+-------/LAT------
+2	created	create	VBD	p2=VBN|pb=create.01	0	root	_
+1	Who	who	WP	_	2	nsubj	2:R-A0
+3	Goofy	goofy	NNP	p2=JJ	2	dobj	2:A1=PPT
+========================================58
+Was the Cuban Missile Crisis earlier than the Bay of Pigs Invasion?
+-------LAT-------
+5	Crisis	crisis	NNP	p2=NNPS	1	nsubj	1:A1=PPT
+9	Bay	bay	NNP	p2=NN	7	pobj	_
+12	Invasion	invasion	NNP	_	10	pobj	_
+-------/LAT------
+6	earlier	early	RBR	p2=JJR	1	advmod	1:A2=PRD
+11	Pigs	pigs	NNP	p2=NNPS	12	nn	_
+3	Cuban	cuban	JJ	p2=NNP	5	amod	_
+9	Bay	bay	NNP	p2=NN	7	pobj	_
+4	Missile	missile	NNP	_	5	nn	_
+5	Crisis	crisis	NNP	p2=NNPS	1	nsubj	1:A1=PPT
+12	Invasion	invasion	NNP	_	10	pobj	_
+1	Was	be	VBD	pb=be.01	0	root	_
+========================================59
+Give me all islands that belong to Japan.
+-------LAT-------
+4	islands	island	NNS	_	1	dobj	6:A0=PAG;1:A1=PPT
+8	Japan	japan	NNP	_	7	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+5	that	that	WDT	_	6	nsubj	6:R-A0
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	islands	island	NNS	_	1	dobj	6:A0=PAG;1:A1=PPT
+8	Japan	japan	NNP	_	7	pobj	_
+6	belong	belong	VBP	pb=belong.01	4	rcmod	_
+========================================60
+Who invented the zipper?
+-------LAT-------
+4	zipper	zipper	NN	_	2	dobj	2:A1=PRD
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A0
+2	invented	invent	VBD	pb=invent.01	0	root	_
+4	zipper	zipper	NN	_	2	dobj	2:A1=PRD
+========================================61
+What is the ruling party in Lisbon?
+-------LAT-------
+5	party	party	NN	_	2	nsubj	4:A0=PAG;2:A1=PPT
+7	Lisbon	lisbon	NNP	_	6	pobj	_
+-------/LAT------
+2	is	be	VBZ	pb=be.01	0	root	_
+4	ruling	rule	VBG	pb=rule.03	5	amod	_
+7	Lisbon	lisbon	NNP	_	6	pobj	_
+5	party	party	NN	_	2	nsubj	4:A0=PAG;2:A1=PPT
+1	What	what	WP	_	2	attr	2:R-A2
+========================================62
+What are the nicknames of San Francisco?
+-------LAT-------
+4	nicknames	nickname	NNS	_	2	nsubj	2:A1=PPT
+7	Francisco	francisco	NNP	_	5	pobj	_
+-------/LAT------
+6	San	san	NNP	_	7	nn	_
+7	Francisco	francisco	NNP	_	5	pobj	_
+4	nicknames	nickname	NNS	_	2	nsubj	2:A1=PPT
+2	are	be	VBP	pb=be.01	0	root	_
+1	What	what	WP	_	2	attr	2:R-A2
+========================================63
+Which Greek goddesses dwelt on Mount Olympus?
+-------LAT-------
+2	Greek	greek	NNP	p2=JJ	4	nsubjpass	4:A1=LOC
+7	Olympus	olympus	NNP	_	5	pobj	_
+-------/LAT------
+6	Mount	mount	NNP	_	7	nn	_
+4	dwelt	dwell	VBN	p2=NN|pb=dwell.01	0	root	_
+1	Which	which	WDT	_	2	det	_
+2	Greek	greek	NNP	p2=JJ	4	nsubjpass	4:A1=LOC
+========================================64
+When were the Hells Angels founded?
+-------LAT-------
+5	Angels	angel	NNPS	_	6	nsubjpass	6:A1=PPT
+-------/LAT------
+6	founded	found	VBN	p2=VBN|pb=found.01	0	root	_
+5	Angels	angel	NNPS	_	6	nsubjpass	6:A1=PPT
+4	Hells	hells	NNP	p2=NNPS	5	nn	_
+========================================65
+Give me all Apollo 14 astronauts.
+-------LAT-------
+6	astronauts	astronaut	NNS	_	1	dobj	1:A1=PPT
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	Apollo	apollo	NNP	_	6	nn	_
+6	astronauts	astronaut	NNS	_	1	dobj	1:A1=PPT
+1	Give	give	VB	pb=give.01	0	root	_
+========================================66
+What is the time zone of Salt Lake City?
+-------LAT-------
+5	zone	zone	NN	_	2	nsubj	2:A1=PPT
+9	City	city	NNP	_	6	pobj	_
+-------/LAT------
+1	What	what	WP	_	2	attr	2:R-A2
+5	zone	zone	NN	_	2	nsubj	2:A1=PPT
+7	Salt	salt	NNP	_	8	nn	_
+8	Lake	lake	NNP	_	9	nn	_
+4	time	time	NN	_	5	nn	_
+2	is	be	VBZ	pb=be.01	0	root	_
+9	City	city	NNP	_	6	pobj	_
+========================================67
+Which U.S. states are in the same time zone as Utah?
+-------LAT-------
+3	states	state	NNS	_	4	nsubj	4:R-A1
+9	zone	zone	NN	_	5	pobj	_
+11	Utah	utah	NNP	_	10	pobj	_
+-------/LAT------
+1	Which	which	WDT	_	3	det	_
+4	are	be	VBP	pb=be.01	0	root	_
+9	zone	zone	NN	_	5	pobj	_
+11	Utah	utah	NNP	_	10	pobj	_
+5	in	in	IN	_	4	prep	4:A2=PRD
+7	same	same	JJ	_	9	amod	_
+8	time	time	NN	_	9	nn	_
+2	U.S.	u.s.	NNP	_	3	nn	_
+3	states	state	NNS	_	4	nsubj	4:R-A1
+========================================68
+Give me the capitals of all countries in Africa.
+-------LAT-------
+4	capitals	capital	NNS	_	1	dobj	1:A1=PPT
+7	countries	country	NNS	_	5	pobj	_
+9	Africa	africa	NNP	_	8	pobj	_
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+7	countries	country	NNS	_	5	pobj	_
+4	capitals	capital	NNS	_	1	dobj	1:A1=PPT
+9	Africa	africa	NNP	_	8	pobj	_
+1	Give	give	VB	pb=give.01	0	root	_
+========================================69
+Give me a list of all lakes in Denmark.
+-------LAT-------
+4	list	list	NN	_	1	dobj	1:A1=PPT
+7	lakes	lake	NNS	_	5	pobj	_
+9	Denmark	denmark	NNP	_	8	pobj	_
+-------/LAT------
+7	lakes	lake	NNS	_	5	pobj	_
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	list	list	NN	_	1	dobj	1:A1=PPT
+9	Denmark	denmark	NNP	_	8	pobj	_
+========================================70
+How many space missions have there been?
+-------LAT-------
+4	missions	mission	NNS	_	7	nsubj	7:A1=PPT
+-------/LAT------
+2	many	many	JJ	_	4	amod	_
+7	been	be	VBN	pb=be.01	0	root	_
+3	space	space	NN	_	4	nn	_
+4	missions	mission	NNS	_	7	nsubj	7:A1=PPT
+1	How	how	WRB	_	2	advmod	_
+6	there	there	RB	p2=EX	7	advmod	7:A2=PRD
+========================================71
+Did Socrates influence Aristotle?
+-------LAT-------
+2	Socrates	socrates	NNPS	p2=NNP	3	nsubj	3:A0=PAG
+4	Aristotle	aristotle	NNP	p2=NN	3	dobj	3:A1=PPT
+-------/LAT------
+3	influence	influence	VB	pb=influence.01	0	root	_
+2	Socrates	socrates	NNPS	p2=NNP	3	nsubj	3:A0=PAG
+4	Aristotle	aristotle	NNP	p2=NN	3	dobj	3:A1=PPT
+========================================72
+Give me all Danish films.
+-------LAT-------
+5	films	film	NNS	_	1	dobj	1:A1=PPT
+-------/LAT------
+5	films	film	NNS	_	1	dobj	1:A1=PPT
+4	Danish	danish	JJ	_	5	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================73
+Give me all launch pads operated by NASA.
+-------LAT-------
+5	pads	pad	NNS	_	1	dobj	1:A1=PPT;6:A1=PPT
+8	NASA	nasa	NNP	_	7	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+4	launch	launch	NN	p2=VB	5	nn	_
+8	NASA	nasa	NNP	_	7	pobj	_
+6	operated	operate	VBN	pb=operate.01	5	partmod	_
+5	pads	pad	NNS	_	1	dobj	1:A1=PPT;6:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================74
+Which instruments does Cat Stevens play?
+-------LAT-------
+2	instruments	instrument	NNS	_	6	dobj	6:R-A1
+5	Stevens	stevens	NNP	_	6	nsubj	6:A0=PAG
+-------/LAT------
+5	Stevens	stevens	NNP	_	6	nsubj	6:A0=PAG
+1	Which	which	WDT	_	2	det	_
+2	instruments	instrument	NNS	_	6	dobj	6:R-A1
+4	Cat	cat	NNP	p2=VB	5	nn	_
+6	play	play	VB	p2=NN|pb=play.01	0	root	_
+========================================75
+Which ships were called after Benjamin Franklin?
+-------LAT-------
+2	ships	ship	NNS	_	4	nsubjpass	4:A1=PPT
+7	Franklin	franklin	NNP	_	5	pobj	_
+-------/LAT------
+1	Which	which	WDT	_	2	det	_
+6	Benjamin	benjamin	NNP	_	7	nn	_
+4	called	call	VBN	pb=call.01	0	root	_
+2	ships	ship	NNS	_	4	nsubjpass	4:A1=PPT
+========================================76
+Who are the parents of the wife of Juan Carlos I?
+-------LAT-------
+4	parents	parent	NNS	_	2	attr	2:A2=PRD
+7	wife	wife	NN	_	5	pobj	_
+10	Carlos	carlos	NNP	_	8	pobj	_
+-------/LAT------
+2	are	be	VBP	pb=be.01	0	root	_
+9	Juan	juan	NNP	_	10	nn	_
+10	Carlos	carlos	NNP	_	8	pobj	_
+1	Who	who	WP	_	2	nsubj	2:R-A1
+4	parents	parent	NNS	_	2	attr	2:A2=PRD
+7	wife	wife	NN	_	5	pobj	_
+========================================77
+How many employees does Google have?
+-------LAT-------
+3	employees	employee	NNS	_	6	dobj	6:R-A1
+5	Google	google	NNP	_	6	nsubj	6:A0=PAG
+-------/LAT------
+2	many	many	JJ	_	3	amod	_
+6	have	have	VB	pb=have.03	0	root	_
+5	Google	google	NNP	_	6	nsubj	6:A0=PAG
+3	employees	employee	NNS	_	6	dobj	6:R-A1
+1	How	how	WRB	_	2	advmod	_
+========================================78
+Did Tesla win a nobel prize in physics?
+-------LAT-------
+2	Tesla	tesla	NNP	p2=TO	3	nsubj	3:A0=PAG
+6	prize	prize	NN	_	3	dobj	3:A1=PPT
+8	physics	physics	NN	_	7	pobj	_
+-------/LAT------
+6	prize	prize	NN	_	3	dobj	3:A1=PPT
+3	win	win	VB	pb=win.01	0	root	_
+2	Tesla	tesla	NNP	p2=TO	3	nsubj	3:A0=PAG
+5	nobel	nobel	NN	p2=JJ	6	nn	_
+8	physics	physics	NN	_	7	pobj	_
+========================================79
+Give me all cities in New Jersey with more than 100000 inhabitants.
+-------LAT-------
+4	cities	city	NNS	_	1	dobj	1:A1=PPT
+7	Jersey	jersey	NNP	_	5	pobj	_
+12	inhabitants	inhabitant	NNS	_	8	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+9	more	more	JJR	_	11	amod	_
+6	New	new	NNP	_	7	nn	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+7	Jersey	jersey	NNP	_	5	pobj	_
+4	cities	city	NNS	_	1	dobj	1:A1=PPT
+========================================80
+Is Michelle Obama the wife of Barack Obama?
+-------LAT-------
+3	Obama	obama	NNP	_	1	nsubj	1:A1=PPT
+5	wife	wife	NN	_	1	attr	1:A2=PRD
+8	Obama	obama	NNP	_	6	pobj	_
+-------/LAT------
+7	Barack	barack	NNP	_	8	nn	_
+8	Obama	obama	NNP	_	6	pobj	_
+2	Michelle	michelle	NNP	_	3	nn	_
+1	Is	be	VBZ	pb=be.01	0	root	_
+3	Obama	obama	NNP	_	1	nsubj	1:A1=PPT
+5	wife	wife	NN	_	1	attr	1:A2=PRD
+========================================81
+When was the Statue of Liberty built?
+-------LAT-------
+4	Statue	statue	NNP	_	7	nsubjpass	7:A1=PRD
+6	Liberty	liberty	NNP	_	5	pobj	_
+-------/LAT------
+6	Liberty	liberty	NNP	_	5	pobj	_
+7	built	build	VBN	p2=VBD|pb=build.01	0	root	_
+4	Statue	statue	NNP	_	7	nsubjpass	7:A1=PRD
+========================================82
+In which U.S. state is Fort Knox located?
+-------LAT-------
+4	state	state	NN	_	5	nsubj	5:A1=PPT
+7	Knox	knox	NNP	_	5	attr	8:A1=PPT;5:A2=PRD
+-------/LAT------
+6	Fort	fort	NNP	_	7	nn	_
+8	located	locate	VBN	pb=locate.01	7	partmod	_
+4	state	state	NN	_	5	nsubj	5:A1=PPT
+5	is	be	VBZ	pb=be.01	0	root	_
+7	Knox	knox	NNP	_	5	attr	8:A1=PPT;5:A2=PRD
+3	U.S.	u.s.	NNP	_	4	nn	_
+========================================83
+How many children did Benjamin Franklin have?
+-------LAT-------
+3	children	child	NNS	_	7	dobj	7:R-A1
+6	Franklin	franklin	NNP	_	7	nsubj	7:A0=PAG
+-------/LAT------
+2	many	many	JJ	_	3	amod	_
+1	How	how	WRB	_	2	advmod	_
+6	Franklin	franklin	NNP	_	7	nsubj	7:A0=PAG
+7	have	have	VB	pb=have.03	0	root	_
+5	Benjamin	benjamin	NNP	_	6	nn	_
+3	children	child	NNS	_	7	dobj	7:R-A1
+========================================84
+When did Michael Jackson die?
+-------LAT-------
+4	Jackson	jackson	NNP	_	5	nsubj	5:A1=PPT
+-------/LAT------
+5	die	die	VB	pb=die.01	0	root	_
+4	Jackson	jackson	NNP	_	5	nsubj	5:A1=PPT
+3	Michael	michael	NNP	_	4	nn	_
+========================================85
+Which Chess players died in the same place they were born in?
+-------LAT-------
+3	players	player	NNS	_	4	nsubj	4:A1=PPT
+8	place	place	NN	_	5	pobj	_
+-------/LAT------
+2	Chess	chess	NNP	p2=NN	3	nn	_
+10	were	be	VBD	_	11	auxpass	_
+7	same	same	JJ	_	8	amod	_
+4	died	die	VBD	pb=die.01	0	root	_
+1	Which	which	WDT	_	4	dobj	4:R-A2
+3	players	player	NNS	_	4	nsubj	4:A1=PPT
+11	born	bear	VBN	pb=bear.02	8	rcmod	_
+========================================86
+List the children of Margaret Thatcher.
+-------LAT-------
+3	children	child	NNS	_	1	dobj	1:A1=PPT
+6	Thatcher	thatcher	NNP	_	4	pobj	_
+-------/LAT------
+5	Margaret	margaret	NNP	_	6	nn	_
+3	children	child	NNS	_	1	dobj	1:A1=PPT
+6	Thatcher	thatcher	NNP	_	4	pobj	_
+1	List	list	VB	pb=list.01	0	root	_
+========================================87
+Who was called Scarface?
+-------LAT-------
+4	Scarface	scarface	NNP	p2=NN	3	oprd	3:A2=PRD
+-------/LAT------
+4	Scarface	scarface	NNP	p2=NN	3	oprd	3:A2=PRD
+1	Who	who	WP	_	3	nsubjpass	3:R-A1
+3	called	call	VBN	pb=call.01	0	root	_
+========================================88
+Was Margaret Thatcher a chemist?
+-------LAT-------
+3	Thatcher	thatcher	NNP	_	1	nsubj	1:A1=PPT
+5	chemist	chemist	NN	_	1	attr	1:A2=PRD
+-------/LAT------
+2	Margaret	margaret	NNP	_	3	nn	_
+5	chemist	chemist	NN	_	1	attr	1:A2=PRD
+3	Thatcher	thatcher	NNP	_	1	nsubj	1:A1=PPT
+1	Was	be	VBD	p2=NNP|pb=be.01	0	root	_
+========================================89
+Was Marc Chagall a jew?
+-------LAT-------
+3	Chagall	chagall	NNP	p2=VB	1	nsubj	1:A1=PPT
+5	jew	jew	NN	p2=XX	1	attr	1:A2=PRD
+-------/LAT------
+3	Chagall	chagall	NNP	p2=VB	1	nsubj	1:A1=PPT
+1	Was	be	VBD	pb=be.01	0	root	_
+2	Marc	marc	NNP	_	3	nn	_
+5	jew	jew	NN	p2=XX	1	attr	1:A2=PRD
+========================================90
+Which museum exhibits The Scream by Munch?
+-------LAT-------
+2	museum	museum	NN	_	3	nsubj	3:R-A0
+5	Scream	scream	NNP	p2=NN	3	dobj	3:A1=PPT
+7	Munch	munch	NNP	_	6	pobj	_
+-------/LAT------
+1	Which	which	WDT	_	2	det	_
+3	exhibits	exhibit	VBZ	pb=exhibit.01	0	root	_
+5	Scream	scream	NNP	p2=NN	3	dobj	3:A1=PPT
+2	museum	museum	NN	_	3	nsubj	3:R-A0
+========================================91
+Give me all books by William Goldman with more than 300 pages.
+-------LAT-------
+4	books	book	NNS	_	1	dobj	1:A1=PPT
+7	Goldman	goldman	NNP	_	5	pobj	_
+12	pages	page	NNS	_	8	pobj	_
+-------/LAT------
+6	William	william	NNP	_	7	nn	_
+9	more	more	JJR	_	11	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	books	book	NNS	_	1	dobj	1:A1=PPT
+========================================92
+Which books by Kerouac were published by Viking Press?
+-------LAT-------
+2	books	book	NNS	_	6	nsubjpass	6:R-A1
+4	Kerouac	kerouac	NNP	_	3	pobj	_
+9	Press	press	NNP	_	8	dobj	8:A1
+-------/LAT------
+7	by	by	IN	_	6	agent	6:A0=PAG
+6	published	publish	VBN	pb=publish.01	0	root	_
+8	Viking	viking	VBG	p2=NNP|pb=viking.01	7	pcomp	_
+1	Which	which	WDT	_	2	det	_
+4	Kerouac	kerouac	NNP	_	3	pobj	_
+2	books	book	NNS	_	6	nsubjpass	6:R-A1
+========================================93
+Give me a list of all American inventions.
+-------LAT-------
+4	list	list	NN	_	1	dobj	1:A1=PPT
+8	inventions	invention	NNS	_	5	pobj	_
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	list	list	NN	_	1	dobj	1:A1=PPT
+7	American	american	JJ	p2=NNP	8	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+8	inventions	invention	NNS	_	5	pobj	_
+========================================94
+How high is the Mount Everest?
+-------LAT-------
+6	Everest	everest	NNP	_	3	nsubj	3:A1=PPT
+-------/LAT------
+5	Mount	mount	NNP	_	6	nn	_
+6	Everest	everest	NNP	_	3	nsubj	3:A1=PPT
+2	high	high	JJ	_	3	acomp	3:R-A2
+3	is	be	VBZ	pb=be.01	0	root	_
+========================================95
+Who created the comic Captain America?
+-------LAT-------
+6	America	america	NNP	_	2	dobj	2:A1=PPT
+-------/LAT------
+4	comic	comic	JJ	_	6	amod	_
+6	America	america	NNP	_	2	dobj	2:A1=PPT
+1	Who	who	WP	_	2	nsubj	2:R-A0
+2	created	create	VBD	pb=create.01	0	root	_
+5	Captain	captain	NNP	_	6	nn	_
+========================================96
+How many people live in the capital of Australia?
+-------LAT-------
+3	people	people	NNS	_	4	nsubj	4:A0=PAG
+7	capital	capital	NN	_	5	pobj	_
+9	Australia	australia	NNP	_	8	pobj	_
+-------/LAT------
+3	people	people	NNS	_	4	nsubj	4:A0=PAG
+2	many	many	JJ	_	3	amod	_
+9	Australia	australia	NNP	_	8	pobj	_
+4	live	live	VBP	pb=live.01	0	root	_
+1	How	how	WRB	_	2	advmod	_
+7	capital	capital	NN	_	5	pobj	_
+========================================97
+What is the largest city in Australia?
+-------LAT-------
+5	city	city	NN	_	2	attr	2:A1=PPT
+7	Australia	australia	NNP	_	6	pobj	_
+-------/LAT------
+4	largest	large	JJS	_	5	amod	_
+2	is	be	VBZ	pb=be.01	0	root	_
+1	What	what	WP	_	2	attr	2:R-A2
+7	Australia	australia	NNP	_	6	pobj	_
+5	city	city	NN	_	2	attr	2:A1=PPT
+========================================98
+Who composed the music for Harold and Maude?
+-------LAT-------
+4	music	music	NN	_	2	dobj	2:A1
+6	Harold	harold	NNP	_	5	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A0
+2	composed	compose	VBD	pb=compose.02	0	root	_
+6	Harold	harold	NNP	_	5	pobj	_
+8	Maude	maude	NNP	_	6	conj	_
+4	music	music	NN	_	2	dobj	2:A1
+========================================99
+Which films starring Clint Eastwood did he direct himself?
+-------LAT-------
+2	films	film	NNS	_	0	root	3:A2=GOL
+5	Eastwood	eastwood	NNP	p2=NNPS	3	dobj	3:A1=PAG
+-------/LAT------
+4	Clint	clint	NNP	_	5	nn	_
+1	Which	which	WDT	_	2	det	_
+3	starring	star	VBG	pb=star.01	2	partmod	_
+5	Eastwood	eastwood	NNP	p2=NNPS	3	dobj	3:A1=PAG
+========================================100
+In which city was the former Dutch queen Juliana buried?
+-------LAT-------
+3	city	city	NN	_	1	pobj	_
+8	queen	queen	NN	_	10	nsubjpass	10:A1=PPT
+9	Juliana	juliana	NNP	_	10	npadvmod	10:AM-DIS
+-------/LAT------
+7	Dutch	dutch	JJ	p2=NNP	8	amod	_
+8	queen	queen	NN	_	10	nsubjpass	10:A1=PPT
+10	buried	bury	VBN	p2=VBN|pb=bury.01	0	root	_
+2	which	which	WDT	_	3	det	_
+6	former	former	JJ	_	8	amod	_
+========================================101
+Is Egypts largest city also its capital?
+-------LAT-------
+4	city	city	NN	_	1	attr	1:A1=PPT
+-------/LAT------
+4	city	city	NN	_	1	attr	1:A1=PPT
+2	Egypts	egypts	NNP	p2=NNPS	4	nn	_
+3	largest	large	JJS	_	4	amod	_
+7	capital	capital	NN	_	4	appos	_
+1	Is	be	VBZ	pb=be.01	0	root	_
+========================================102
+Where is the residence of the prime minister of Spain?
+-------LAT-------
+4	residence	residence	NN	_	2	nsubj	2:A1=PPT
+8	minister	minister	NN	_	5	pobj	_
+10	Spain	spain	NNP	_	9	pobj	_
+-------/LAT------
+2	is	be	VBZ	pb=be.01	0	root	_
+1	Where	where	WRB	_	2	advmod	2:R-A2
+10	Spain	spain	NNP	_	9	pobj	_
+8	minister	minister	NN	_	5	pobj	_
+4	residence	residence	NN	_	2	nsubj	2:A1=PPT
+7	prime	prime	JJ	_	8	amod	_
+========================================103
+Which U.S. state has the abbreviation MN?
+-------LAT-------
+3	state	state	NN	_	4	nsubj	4:A0=PAG
+6	abbreviation	abbreviation	NN	p2=NNP	4	dobj	4:A1=PPT
+7	MN	mn	NNP	p2=NN	4	npadvmod	4:AM-DIS
+-------/LAT------
+1	Which	which	WDT	_	3	det	_
+6	abbreviation	abbreviation	NN	p2=NNP	4	dobj	4:A1=PPT
+2	U.S.	u.s.	NNP	_	3	nn	_
+3	state	state	NN	_	4	nsubj	4:A0=PAG
+4	has	have	VBZ	pb=have.03	0	root	_
+========================================104
+Show me all songs from Bruce Springsteen released between 1980 and 1990.
+-------LAT-------
+4	songs	song	NNS	_	1	dobj	1:A1=PPT;8:A1=PPT
+7	Springsteen	springsteen	NNP	p2=NNPS	5	pobj	_
+-------/LAT------
+6	Bruce	bruce	NNP	_	7	nn	_
+1	Show	show	VB	pb=show.01	0	root	_
+4	songs	song	NNS	_	1	dobj	1:A1=PPT;8:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+8	released	release	VBN	p2=VBD|pb=release.01	4	partmod	_
+7	Springsteen	springsteen	NNP	p2=NNPS	5	pobj	_
+========================================105
+Which movies did Kurosawa direct after Rashomon?
+-------LAT-------
+2	movies	movie	NNS	_	5	dobj	5:R-A1
+4	Kurosawa	kurosawa	NNP	_	5	nsubj	5:A0=PAG
+7	Rashomon	rashomon	NNP	_	6	pobj	_
+-------/LAT------
+2	movies	movie	NNS	_	5	dobj	5:R-A1
+5	direct	direct	VB	p2=JJ|pb=direct.01	0	root	_
+1	Which	which	WDT	_	2	det	_
+4	Kurosawa	kurosawa	NNP	_	5	nsubj	5:A0=PAG
+========================================106
+What is the founding year of the brewery that produces Pilsner Urquell?
+-------LAT-------
+5	year	year	NN	_	2	nsubj	2:A1=PPT;4:A1=PPT
+8	brewery	brewery	NN	_	6	pobj	10:A0=PAG
+12	Urquell	urquell	NNP	_	10	dobj	10:A1
+-------/LAT------
+11	Pilsner	pilsner	NNP	p2=NN	12	nn	_
+5	year	year	NN	_	2	nsubj	2:A1=PPT;4:A1=PPT
+1	What	what	WP	_	2	attr	2:R-A2
+9	that	that	WDT	_	10	nsubj	10:R-A0
+12	Urquell	urquell	NNP	_	10	dobj	10:A1
+8	brewery	brewery	NN	_	6	pobj	10:A0=PAG
+2	is	be	VBZ	pb=be.01	0	root	_
+10	produces	produce	VBZ	pb=produce.01	8	rcmod	_
+4	founding	found	VBG	p2=JJ|pb=found.01	5	amod	_
+========================================107
+Who wrote the lyrics for the Polish national anthem?
+-------LAT-------
+4	lyrics	lyric	NNS	_	2	dobj	2:A1=PPT
+9	anthem	anthem	NN	_	5	pobj	_
+-------/LAT------
+2	wrote	write	VBD	pb=write.01	0	root	_
+4	lyrics	lyric	NNS	_	2	dobj	2:A1=PPT
+1	Who	who	WP	_	2	nsubj	2:R-A0
+8	national	national	JJ	_	9	amod	_
+7	Polish	polish	JJ	_	9	amod	_
+9	anthem	anthem	NN	_	5	pobj	_
+========================================108
+Give me all B-sides of the Ramones.
+-------LAT-------
+6	sides	side	NNS	_	1	dobj	1:A1=PPT
+9	Ramones	ramones	NNPS	p2=NNP	7	pobj	_
+-------/LAT------
+4	B	b	NNP	p2=NN	6	hmod	_
+6	sides	side	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+1	Give	give	VB	pb=give.01	0	root	_
+9	Ramones	ramones	NNPS	p2=NNP	7	pobj	_
+========================================109
+Who painted The Storm on the Sea of Galilee?
+-------LAT-------
+4	Storm	storm	NN	p2=NNP	2	dobj	2:A1=PPT
+7	Sea	sea	NNP	_	5	pobj	_
+9	Galilee	galilee	NNP	_	8	pobj	_
+-------/LAT------
+4	Storm	storm	NN	p2=NNP	2	dobj	2:A1=PPT
+1	Who	who	WP	_	2	nsubj	2:R-A0
+7	Sea	sea	NNP	_	5	pobj	_
+2	painted	paint	VBD	pb=paint.02	0	root	_
+9	Galilee	galilee	NNP	_	8	pobj	_
+========================================110
+Which country does the creator of Miffy come from?
+-------LAT-------
+2	country	country	NN	_	9	pobj	_
+5	creator	creator	NN	_	8	nsubj	8:A1=PPT
+7	Miffy	miffy	NNP	p2=NNPS	6	pobj	_
+-------/LAT------
+8	come	come	VB	p2=VBN|pb=come.01	0	root	_
+1	Which	which	WDT	_	2	det	_
+7	Miffy	miffy	NNP	p2=NNPS	6	pobj	_
+5	creator	creator	NN	_	8	nsubj	8:A1=PPT
+9	from	from	IN	_	8	prep	8:R-A2=EXT
+========================================111
+For which label did Elvis record his first album?
+-------LAT-------
+3	label	label	NN	_	1	pcomp	_
+5	Elvis	elvis	NNP	_	6	nsubj	6:A0=PAG
+9	album	album	NN	_	6	dobj	6:A1=PPT
+-------/LAT------
+2	which	which	WDT	_	3	det	_
+5	Elvis	elvis	NNP	_	6	nsubj	6:A0=PAG
+8	first	#ord#	JJ	_	9	amod	_
+6	record	record	VB	pb=record.01	0	root	_
+9	album	album	NN	_	6	dobj	6:A1=PPT
+========================================112
+Give me the birthdays of all actors of the television show Charmed.
+-------LAT-------
+4	birthdays	birthday	NNS	p2=NN	1	dobj	1:A1=PPT
+7	actors	actor	NNS	_	5	pobj	_
+11	show	show	NN	p2=VBP	8	pobj	_
+-------/LAT------
+11	show	show	NN	p2=VBP	8	pobj	_
+10	television	television	NN	_	11	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+4	birthdays	birthday	NNS	p2=NN	1	dobj	1:A1=PPT
+12	Charmed	charmed	NNP	p2=VBN	11	appos	_
+7	actors	actor	NNS	_	5	pobj	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================113
+How many employees does IBM have?
+-------LAT-------
+3	employees	employee	NNS	_	6	dobj	6:R-A1
+5	IBM	ibm	NNP	_	6	nsubj	6:A0=PAG
+-------/LAT------
+5	IBM	ibm	NNP	_	6	nsubj	6:A0=PAG
+1	How	how	WRB	_	2	advmod	_
+2	many	many	JJ	_	3	amod	_
+6	have	have	VB	pb=have.03	0	root	_
+3	employees	employee	NNS	_	6	dobj	6:R-A1
+========================================114
+Which states border Illinois?
+-------LAT-------
+4	Illinois	illinois	NNP	p2=NN	2	dobj	2:A1=PPT
+-------/LAT------
+2	states	state	VBZ	p2=NNS|pb=state.01	0	root	_
+3	border	border	NN	p2=VB	4	nn	_
+4	Illinois	illinois	NNP	p2=NN	2	dobj	2:A1=PPT
+1	Which	which	WDT	_	2	nsubj	2:R-A0
+========================================115
+In which country is the Limerick Lake?
+-------LAT-------
+3	country	country	NN	_	1	pobj	_
+7	Lake	lake	NNP	_	4	nsubj	4:A1=PPT
+-------/LAT------
+4	is	be	VBZ	pb=be.01	0	root	_
+7	Lake	lake	NNP	_	4	nsubj	4:A1=PPT
+2	which	which	WDT	_	3	det	_
+1	In	in	IN	_	4	prep	4:R-A2=PRD
+6	Limerick	limerick	NNP	_	7	nn	_
+========================================116
+Which television shows were created by Walt Disney?
+-------LAT-------
+3	shows	show	NNS	p2=VBZ	5	nsubjpass	5:R-A1
+8	Disney	disney	NNP	_	6	pobj	_
+-------/LAT------
+1	Which	which	WDT	_	3	det	_
+5	created	create	VBN	pb=create.01	0	root	_
+3	shows	show	NNS	p2=VBZ	5	nsubjpass	5:R-A1
+6	by	by	IN	_	5	agent	5:A0=PAG
+7	Walt	walt	NNP	_	8	nn	_
+2	television	television	NN	_	3	nn	_
+========================================117
+Which mountain is the highest after the Annapurna?
+-------LAT-------
+2	mountain	mountain	NN	_	3	nsubj	3:R-A1
+8	Annapurna	annapurna	NNP	p2=NN	6	pobj	_
+-------/LAT------
+2	mountain	mountain	NN	_	3	nsubj	3:R-A1
+1	Which	which	WDT	_	2	det	_
+5	highest	high	JJS	_	3	attr	3:A2=PRD
+3	is	be	VBZ	pb=be.01	0	root	_
+========================================118
+In which films directed by Garry Marshall was Julia Roberts starring?
+-------LAT-------
+3	films	film	NNS	_	8	nsubj	4:A1=PPT;8:A1=PPT
+7	Marshall	marshall	NNP	_	5	pobj	_
+10	Roberts	roberts	NNP	_	11	nsubj	_
+-------/LAT------
+3	films	film	NNS	_	8	nsubj	4:A1=PPT;8:A1=PPT
+8	was	be	VBD	pb=be.01	0	root	_
+11	starring	star	VBG	pb=star.01	8	ccomp	8:A2=PRD
+6	Garry	garry	NNP	_	7	nn	_
+9	Julia	julia	NNP	_	10	nn	_
+7	Marshall	marshall	NNP	_	5	pobj	_
+4	directed	direct	VBN	pb=direct.01	3	partmod	_
+========================================119
+Which bridges are of the same type as the Manhattan Bridge?
+-------LAT-------
+2	bridges	bridge	NNS	_	3	nsubj	3:A1=PPT
+7	type	type	NN	_	4	pobj	_
+11	Bridge	bridge	NNP	_	8	pobj	_
+-------/LAT------
+2	bridges	bridge	NNS	_	3	nsubj	3:A1=PPT
+7	type	type	NN	_	4	pobj	_
+10	Manhattan	manhattan	NNP	_	11	nn	_
+1	Which	which	WDT	_	2	det	_
+4	of	of	IN	_	3	prep	3:A2=PRD
+11	Bridge	bridge	NNP	_	8	pobj	_
+3	are	be	VBP	pb=be.01	0	root	_
+6	same	same	JJ	_	7	amod	_
+========================================120
+Was U.S. president Jackson involved in a war?
+-------LAT-------
+4	Jackson	jackson	NNP	_	5	nsubjpass	5:A1=PPT
+8	war	war	NN	_	6	pobj	_
+-------/LAT------
+3	president	president	NN	p2=NNP	4	nn	_
+5	involved	involve	VBN	p2=VBN|pb=involve.01	0	root	_
+4	Jackson	jackson	NNP	_	5	nsubjpass	5:A1=PPT
+2	U.S.	u.s.	NNP	_	3	nn	_
+6	in	in	IN	_	5	prep	5:A2=PPT
+========================================121
+Give me all communist countries.
+-------LAT-------
+5	countries	country	NNS	_	1	dobj	1:A1=PPT
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	communist	communist	JJ	_	5	amod	_
+5	countries	country	NNS	_	1	dobj	1:A1=PPT
+1	Give	give	VB	pb=give.01	0	root	_
+========================================122
+Which awards did WikiLeaks win?
+-------LAT-------
+2	awards	award	NNS	_	5	dobj	5:R-A1
+4	WikiLeaks	wikileaks	NNS	p2=NNP	5	nsubj	5:A0=PAG
+-------/LAT------
+2	awards	award	NNS	_	5	dobj	5:R-A1
+4	WikiLeaks	wikileaks	NNS	p2=NNP	5	nsubj	5:A0=PAG
+5	win	win	VB	pb=win.01	0	root	_
+1	Which	which	WDT	_	2	det	_
+========================================123
+Who is the daughter of Ingrid Bergman married to?
+-------LAT-------
+4	daughter	daughter	NN	_	8	nsubjpass	8:A1=PPT
+7	Bergman	bergman	NNP	_	5	pobj	_
+-------/LAT------
+6	Ingrid	ingrid	NNP	p2=JJ	7	nn	_
+4	daughter	daughter	NN	_	8	nsubjpass	8:A1=PPT
+8	married	marry	VBN	p2=VBN|pb=marry.01	0	root	_
+9	to	to	IN	p2=TO	8	prep	8:R-A1
+7	Bergman	bergman	NNP	_	5	pobj	_
+========================================124
+Which U.S. state has the highest population density?
+-------LAT-------
+3	state	state	NN	_	4	nsubj	4:A0=PAG
+8	density	density	NN	_	4	dobj	4:A1=PPT
+-------/LAT------
+2	U.S.	u.s.	NNP	_	3	nn	_
+1	Which	which	WDT	_	3	det	_
+8	density	density	NN	_	4	dobj	4:A1=PPT
+6	highest	high	JJS	_	8	amod	_
+3	state	state	NN	_	4	nsubj	4:A0=PAG
+7	population	population	NN	_	8	nn	_
+4	has	have	VBZ	pb=have.03	0	root	_
+========================================125
+What is the currency of the Czech Republic?
+-------LAT-------
+4	currency	currency	NN	_	2	nsubj	2:A1=PPT
+8	Republic	republic	NNP	_	5	pobj	_
+-------/LAT------
+4	currency	currency	NN	_	2	nsubj	2:A1=PPT
+2	is	be	VBZ	pb=be.01	0	root	_
+8	Republic	republic	NNP	_	5	pobj	_
+1	What	what	WP	_	2	attr	2:R-A2
+7	Czech	czech	NNP	_	8	nn	_
+========================================126
+Which countries adopted the Euro?
+-------LAT-------
+2	countries	country	NNS	_	3	nsubj	3:A0=PAG
+5	Euro	euro	NNP	_	3	dobj	3:A1=PPT
+-------/LAT------
+3	adopted	adopt	VBD	pb=adopt.01	0	root	_
+5	Euro	euro	NNP	_	3	dobj	3:A1=PPT
+1	Which	which	WDT	_	2	det	_
+2	countries	country	NNS	_	3	nsubj	3:A0=PAG
+========================================127
+What is the area code of Berlin?
+-------LAT-------
+5	code	code	NN	_	2	nsubj	2:A1=PPT
+7	Berlin	berlin	NNP	_	6	pobj	_
+-------/LAT------
+4	area	area	NN	_	5	nn	_
+5	code	code	NN	_	2	nsubj	2:A1=PPT
+2	is	be	VBZ	pb=be.01	0	root	_
+1	What	what	WP	_	2	attr	2:R-A2
+7	Berlin	berlin	NNP	_	6	pobj	_
+========================================128
+Which countries have more than two official languages?
+-------LAT-------
+2	countries	country	NNS	_	3	nsubj	3:R-A0
+8	languages	language	NNS	_	3	dobj	3:A1=PPT
+-------/LAT------
+8	languages	language	NNS	_	3	dobj	3:A1=PPT
+3	have	have	VBP	pb=have.03	0	root	_
+2	countries	country	NNS	_	3	nsubj	3:R-A0
+7	official	official	JJ	_	8	amod	_
+4	more	more	JJR	_	6	amod	_
+1	Which	which	WDT	_	2	det	_
+========================================129
+Who is the owner of Universal Studios?
+-------LAT-------
+4	owner	owner	NN	_	2	nsubj	2:A1=PPT
+7	Studios	studios	NNP	p2=NNPS	5	pobj	_
+-------/LAT------
+4	owner	owner	NN	_	2	nsubj	2:A1=PPT
+6	Universal	universal	NNP	_	7	nn	_
+7	Studios	studios	NNP	p2=NNPS	5	pobj	_
+2	is	be	VBZ	pb=be.01	0	root	_
+1	Who	who	WP	_	2	attr	2:R-A2
+========================================130
+Through which countries does the Yenisei river flow?
+-------LAT-------
+3	countries	country	NNS	p2=NN	1	pobj	_
+8	flow	flow	NN	_	0	root	_
+-------/LAT------
+2	which	which	WDT	_	3	det	_
+6	Yenisei	yenisei	NNP	_	7	nn	_
+7	river	river	NN	_	8	nn	_
+3	countries	country	NNS	p2=NN	1	pobj	_
+8	flow	flow	NN	_	0	root	_
+4	does	do	VBZ	_	8	aux	_
+========================================131
+When did Latvia join the EU?
+-------LAT-------
+3	Latvia	latvia	NNP	_	4	nsubj	4:A0=PAG
+6	EU	eu	NNP	_	4	dobj	4:A1=PPT
+-------/LAT------
+6	EU	eu	NNP	_	4	dobj	4:A1=PPT
+3	Latvia	latvia	NNP	_	4	nsubj	4:A0=PAG
+4	join	join	VB	pb=join.01	0	root	_
+========================================132
+Which monarchs were married to a German?
+-------LAT-------
+2	monarchs	monarch	NNS	p2=VBZ	4	nsubjpass	_
+7	German	german	NN	p2=JJ	5	pobj	_
+-------/LAT------
+4	married	married	JJ	p2=VBN	0	root	_
+1	Which	which	WDT	_	2	det	_
+========================================133
+When was the Battle of Gettysburg?
+-------LAT-------
+4	Battle	battle	NNP	_	2	nsubj	2:A1=PPT
+6	Gettysburg	gettysburg	NNP	_	5	pobj	_
+-------/LAT------
+4	Battle	battle	NNP	_	2	nsubj	2:A1=PPT
+1	When	when	WRB	_	2	advmod	2:R-A2
+6	Gettysburg	gettysburg	NNP	_	5	pobj	_
+2	was	be	VBD	pb=be.01	0	root	_
+========================================134
+Which river does the Brooklyn Bridge cross?
+-------LAT-------
+2	river	river	NN	_	7	dobj	7:R-A1
+6	Bridge	bridge	NNP	_	7	nsubj	7:A0=PPT
+-------/LAT------
+6	Bridge	bridge	NNP	_	7	nsubj	7:A0=PPT
+5	Brooklyn	brooklyn	NNP	_	6	nn	_
+7	cross	cross	VB	pb=cross.02	0	root	_
+1	Which	which	WDT	_	2	det	_
+2	river	river	NN	_	7	dobj	7:R-A1
+========================================135
+What is the highest mountain in Australia?
+-------LAT-------
+5	mountain	mountain	NN	_	2	nsubj	2:A1=PPT
+7	Australia	australia	NNP	_	6	pobj	_
+-------/LAT------
+2	is	be	VBZ	pb=be.01	0	root	_
+7	Australia	australia	NNP	_	6	pobj	_
+1	What	what	WP	_	2	attr	2:R-A2
+4	highest	high	JJS	_	5	amod	_
+5	mountain	mountain	NN	_	2	nsubj	2:A1=PPT
+========================================136
+Give me all soccer clubs in Spain.
+-------LAT-------
+5	clubs	club	NNS	_	1	dobj	1:A1=PPT
+7	Spain	spain	NNP	_	6	pobj	_
+-------/LAT------
+4	soccer	soccer	NN	_	5	nn	_
+5	clubs	club	NNS	_	1	dobj	1:A1=PPT
+7	Spain	spain	NNP	_	6	pobj	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+1	Give	give	VB	pb=give.01	0	root	_
+========================================137
+What is the official language of Suriname?
+-------LAT-------
+5	language	language	NN	_	2	nsubj	2:A1=PPT
+7	Suriname	suriname	NNP	p2=NN	6	pobj	_
+-------/LAT------
+4	official	official	JJ	_	5	amod	_
+1	What	what	WP	_	2	attr	2:R-A2
+2	is	be	VBZ	pb=be.01	0	root	_
+5	language	language	NN	_	2	nsubj	2:A1=PPT
+7	Suriname	suriname	NNP	p2=NN	6	pobj	_
+========================================138
+Who is the mayor of Tel Aviv?
+-------LAT-------
+4	mayor	mayor	NN	_	2	nsubj	2:A1=PPT
+7	Aviv	aviv	NNP	_	5	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	attr	2:R-A2
+4	mayor	mayor	NN	_	2	nsubj	2:A1=PPT
+2	is	be	VBZ	pb=be.01	0	root	_
+7	Aviv	aviv	NNP	_	5	pobj	_
+6	Tel	tel	NNP	_	7	nn	_
+========================================139
+Who designed the Brooklyn Bridge?
+-------LAT-------
+5	Bridge	bridge	NNP	_	2	dobj	2:A1=PRD
+-------/LAT------
+5	Bridge	bridge	NNP	_	2	dobj	2:A1=PRD
+2	designed	design	VBD	p2=VBN|pb=design.01	0	root	_
+4	Brooklyn	brooklyn	NNP	_	5	nn	_
+1	Who	who	WP	_	2	nsubj	2:R-A0
+========================================140
+Which telecommunications organizations are located in Belgium?
+-------LAT-------
+3	organizations	organization	NNS	_	5	nsubjpass	5:A1=PPT
+7	Belgium	belgium	NNP	p2=NN	6	pobj	_
+-------/LAT------
+3	organizations	organization	NNS	_	5	nsubjpass	5:A1=PPT
+5	located	locate	VBN	pb=locate.01	0	root	_
+2	telecommunications	telecommunications	NN	p2=NNS	3	nn	_
+1	Which	which	WDT	_	3	det	_
+========================================141
+Is Frank Herbert still alive?
+-------LAT-------
+3	Herbert	herbert	NNP	_	1	nsubj	1:A1=PPT
+-------/LAT------
+5	alive	alive	JJ	_	1	acomp	1:A2=PRD
+3	Herbert	herbert	NNP	_	1	nsubj	1:A1=PPT
+2	Frank	frank	NNP	_	3	nn	_
+1	Is	be	VBZ	pb=be.01	0	root	_
+========================================142
+What is the highest place of the Urals?
+-------LAT-------
+5	place	place	NN	_	2	attr	2:A1=PPT
+8	Urals	urals	NNPS	p2=NNS	6	pobj	_
+-------/LAT------
+5	place	place	NN	_	2	attr	2:A1=PPT
+4	highest	high	JJS	_	5	amod	_
+1	What	what	WP	_	2	attr	2:R-A2
+8	Urals	urals	NNPS	p2=NNS	6	pobj	_
+2	is	be	VBZ	pb=be.01	0	root	_
+========================================143
+Who is the editor of Forbes?
+-------LAT-------
+4	editor	editor	NN	_	2	nsubj	2:A1=PPT
+6	Forbes	forbes	NNP	p2=NNS	5	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	attr	2:R-A2
+4	editor	editor	NN	_	2	nsubj	2:A1=PPT
+2	is	be	VBZ	pb=be.01	0	root	_
+6	Forbes	forbes	NNP	p2=NNS	5	pobj	_
+========================================144
+Give me all companies in the advertising industry.
+-------LAT-------
+4	companies	company	NNS	_	1	dobj	1:A1=PPT
+8	industry	industry	NN	_	5	pobj	_
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+7	advertising	advertising	NN	_	8	nn	_
+4	companies	company	NNS	_	1	dobj	1:A1=PPT
+8	industry	industry	NN	_	5	pobj	_
+========================================145
+How many countries are there in Europe?
+-------LAT-------
+3	countries	country	NNS	_	4	nsubj	4:A1=PPT
+7	Europe	europe	NNP	_	6	pobj	_
+-------/LAT------
+4	are	be	VBP	pb=be.01	0	root	_
+5	there	there	RB	p2=EX	4	advmod	4:A2=PRD
+3	countries	country	NNS	_	4	nsubj	4:A1=PPT
+1	How	how	WRB	_	2	advmod	_
+2	many	many	JJ	_	3	amod	_
+========================================146
+What did Bruce Carver die from?
+-------LAT-------
+4	Carver	carver	NNP	p2=VB	5	nsubj	5:A1=PPT
+-------/LAT------
+6	from	from	IN	_	5	prep	5:R-A2
+3	Bruce	bruce	NNP	_	4	nn	_
+5	die	die	VB	pb=die.01	0	root	_
+4	Carver	carver	NNP	p2=VB	5	nsubj	5:A1=PPT
+========================================147
+Give me all libraries established earlier than 1400.
+-------LAT-------
+4	libraries	library	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+-------/LAT------
+1	Give	give	VB	pb=give.01	0	root	_
+6	earlier	early	JJR	p2=RBR	5	advmod	5:AM-TMP
+5	established	establish	VBN	p2=VBD|pb=establish.01	4	partmod	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+4	libraries	library	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+========================================148
+Which presidents were born in 1945?
+-------LAT-------
+2	presidents	president	NNS	_	4	nsubjpass	4:R-A1
+-------/LAT------
+2	presidents	president	NNS	_	4	nsubjpass	4:R-A1
+4	born	bear	VBN	pb=bear.02	0	root	_
+1	Which	which	WDT	_	2	det	_
+========================================149
+Give me all federal chancellors of Germany.
+-------LAT-------
+5	chancellors	chancellor	NNS	_	1	dobj	1:A1=PPT
+7	Germany	germany	NNP	_	6	pobj	_
+-------/LAT------
+7	Germany	germany	NNP	_	6	pobj	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+5	chancellors	chancellor	NNS	_	1	dobj	1:A1=PPT
+4	federal	federal	JJ	_	5	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+========================================150
+Who was the wife of U.S. president Lincoln?
+-------LAT-------
+4	wife	wife	NN	_	2	attr	2:A2=PRD
+8	Lincoln	lincoln	NNP	_	5	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A1
+2	was	be	VBD	pb=be.01	0	root	_
+8	Lincoln	lincoln	NNP	_	5	pobj	_
+4	wife	wife	NN	_	2	attr	2:A2=PRD
+7	president	president	NN	p2=NNP	8	nn	_
+6	U.S.	u.s.	NNP	_	7	nn	_
+========================================151
+Who developed the video game World of Warcraft?
+-------LAT-------
+6	World	world	NN	p2=NNP	2	dobj	2:A1=PRD
+8	Warcraft	warcraft	NNP	p2=NN	7	pobj	_
+-------/LAT------
+6	World	world	NN	p2=NNP	2	dobj	2:A1=PRD
+5	game	game	NN	_	6	nn	_
+8	Warcraft	warcraft	NNP	p2=NN	7	pobj	_
+2	developed	develop	VBD	pb=develop.02	0	root	_
+4	video	video	NN	_	5	nn	_
+1	Who	who	WP	_	2	nsubj	2:R-A0
+========================================152
+What is the official website of Tom Cruise?
+-------LAT-------
+5	website	website	NN	_	2	nsubj	2:A1=PPT
+8	Cruise	cruise	NNP	_	6	pobj	_
+-------/LAT------
+4	official	official	JJ	_	5	amod	_
+7	Tom	tom	NNP	_	8	nn	_
+5	website	website	NN	_	2	nsubj	2:A1=PPT
+2	is	be	VBZ	pb=be.01	0	root	_
+1	What	what	WP	_	2	attr	2:R-A2
+8	Cruise	cruise	NNP	_	6	pobj	_
+========================================153
+List all episodes of the first season of the HBO television series The Sopranos.
+-------LAT-------
+3	episodes	episode	NNS	_	1	dobj	1:A1=PPT
+7	season	season	NN	_	4	pobj	_
+12	series	series	NN	p2=NNS	8	pobj	_
+-------/LAT------
+10	HBO	hbo	NNP	_	12	nn	_
+6	first	#ord#	JJ	_	7	amod	_
+3	episodes	episode	NNS	_	1	dobj	1:A1=PPT
+14	Sopranos	sopranos	NNP	p2=NNPS	12	appos	_
+7	season	season	NN	_	4	pobj	_
+11	television	television	NN	_	12	nn	_
+1	List	list	VB	pb=list.01	0	root	_
+12	series	series	NN	p2=NNS	8	pobj	_
+========================================154
+Who produced the most films?
+-------LAT-------
+5	films	film	NNS	_	2	dobj	2:A1
+-------/LAT------
+5	films	film	NNS	_	2	dobj	2:A1
+1	Who	who	WP	_	2	nsubj	2:R-A0
+4	most	most	JJS	_	5	amod	_
+2	produced	produce	VBD	pb=produce.01	0	root	_
+========================================155
+Give me all people with first name Jimmy.
+-------LAT-------
+4	people	people	NNS	_	1	dobj	1:A1=PPT
+8	Jimmy	jimmy	NNP	_	5	pobj	_
+-------/LAT------
+7	name	name	NN	_	8	nn	_
+8	Jimmy	jimmy	NNP	_	5	pobj	_
+4	people	people	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+6	first	#ord#	JJ	_	7	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+========================================156
+In which city did John F. Kennedy die?
+-------LAT-------
+3	city	city	NN	_	1	pobj	_
+7	Kennedy	kennedy	NNP	_	8	nsubj	8:A1=PPT
+-------/LAT------
+2	which	which	WDT	_	3	det	_
+5	John	john	NNP	_	7	nn	_
+8	die	die	VB	p2=VBP|pb=die.01	0	root	_
+6	F.	f.	NNP	_	7	nn	_
+7	Kennedy	kennedy	NNP	_	8	nsubj	8:A1=PPT
+========================================157
+Is there a video game called Battle Chess?
+-------LAT-------
+5	game	game	NN	_	1	attr	1:A1=PPT;6:A1=PPT
+8	Chess	chess	NNP	_	6	oprd	6:A2=PRD
+-------/LAT------
+8	Chess	chess	NNP	_	6	oprd	6:A2=PRD
+1	Is	be	VBZ	pb=be.02	0	root	_
+4	video	video	NN	_	5	nn	_
+7	Battle	battle	NNP	_	8	nn	_
+5	game	game	NN	_	1	attr	1:A1=PPT;6:A1=PPT
+6	called	call	VBN	p2=VBD|pb=call.01	5	partmod	_
+========================================158
+Which mountains are higher than the Nanga Parbat?
+-------LAT-------
+2	mountains	mountain	NNS	_	3	nsubj	3:R-A1
+8	Parbat	parbat	NNP	_	5	pobj	_
+-------/LAT------
+2	mountains	mountain	NNS	_	3	nsubj	3:R-A1
+4	higher	high	JJR	_	3	acomp	3:A2=PRD
+3	are	be	VBP	pb=be.01	0	root	_
+7	Nanga	nanga	NNP	p2=NNPS	8	nn	_
+1	Which	which	WDT	_	2	det	_
+========================================159
+Who created Wikipedia?
+-------LAT-------
+3	Wikipedia	wikipedia	NNP	p2=NN	2	dobj	2:A1=PPT
+-------/LAT------
+2	created	create	VBD	p2=VBN|pb=create.01	0	root	_
+1	Who	who	WP	_	2	nsubj	2:R-A0
+3	Wikipedia	wikipedia	NNP	p2=NN	2	dobj	2:A1=PPT
+========================================160
+Give me all actors starring in Last Action Hero.
+-------LAT-------
+4	actors	actor	NNS	_	1	dobj	1:A1=PPT;5:A1=PAG
+9	Hero	hero	NNP	_	6	pobj	_
+-------/LAT------
+7	Last	last	JJ	p2=NNP	9	amod	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+9	Hero	hero	NNP	_	6	pobj	_
+1	Give	give	VB	pb=give.01	0	root	_
+8	Action	action	NNP	p2=NN	9	nn	_
+5	starring	star	VBG	pb=star.01	4	partmod	_
+4	actors	actor	NNS	_	1	dobj	1:A1=PPT;5:A1=PAG
+========================================161
+Which software has been developed by organizations founded in California?
+-------LAT-------
+2	software	software	NN	_	5	nsubjpass	5:R-A1
+7	organizations	organization	NNS	_	6	pobj	8:A1=PPT
+10	California	california	NNP	_	9	pobj	_
+-------/LAT------
+10	California	california	NNP	_	9	pobj	_
+6	by	by	IN	_	5	agent	5:A0=PAG
+5	developed	develop	VBN	pb=develop.02	0	root	_
+8	founded	found	VBN	pb=found.01	7	partmod	_
+2	software	software	NN	_	5	nsubjpass	5:R-A1
+1	Which	which	WDT	_	2	det	_
+========================================162
+Which companies work in the aerospace industry as well as in medicine?
+-------LAT-------
+2	companies	company	NNS	p2=VBZ	3	nsubj	3:A0=PAG
+7	industry	industry	NN	_	4	pobj	_
+12	medicine	medicine	NN	_	11	pobj	_
+-------/LAT------
+1	Which	which	WDT	_	2	det	_
+3	work	work	VBP	pb=work.01	0	root	_
+6	aerospace	aerospace	NN	p2=JJ	7	nn	_
+2	companies	company	NNS	p2=VBZ	3	nsubj	3:A0=PAG
+========================================163
+Is Christian Bale starring in Velvet Goldmine?
+-------LAT-------
+3	Bale	bale	NNP	_	4	attr	4:A1=PAG
+7	Goldmine	goldmine	NNP	p2=NN	5	pobj	_
+-------/LAT------
+3	Bale	bale	NNP	_	4	attr	4:A1=PAG
+6	Velvet	velvet	NNP	p2=VBN	7	nn	_
+4	starring	star	VBG	pb=star.01	0	root	_
+5	in	in	IN	_	4	prep	4:A2=GOL
+2	Christian	christian	NNP	p2=JJ	3	nn	_
+========================================164
+Give me the websites of companies with more than 500000 employees.
+-------LAT-------
+4	websites	website	NNS	_	1	dobj	1:A1=PPT
+6	companies	company	NNS	_	5	pobj	_
+11	employees	employee	NNS	_	7	pobj	_
+-------/LAT------
+11	employees	employee	NNS	_	7	pobj	_
+6	companies	company	NNS	_	5	pobj	_
+4	websites	website	NNS	_	1	dobj	1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+8	more	more	JJR	_	10	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+========================================165
+Which actors were born in Germany?
+-------LAT-------
+2	actors	actor	NNS	_	4	nsubjpass	4:R-A1
+6	Germany	germany	NNP	_	5	pobj	_
+-------/LAT------
+2	actors	actor	NNS	_	4	nsubjpass	4:R-A1
+4	born	bear	VBN	pb=bear.02	0	root	_
+1	Which	which	WDT	_	2	det	_
+========================================166
+Which caves have more than 3 entrances?
+-------LAT-------
+2	caves	cave	NNS	_	3	nsubj	3:A0=PAG
+7	entrances	entrance	NNS	_	3	dobj	3:A1=PPT
+-------/LAT------
+7	entrances	entrance	NNS	_	3	dobj	3:A1=PPT
+4	more	more	JJR	_	6	amod	_
+1	Which	which	WDT	_	2	det	_
+3	have	have	VBP	pb=have.03	0	root	_
+2	caves	cave	NNS	_	3	nsubj	3:A0=PAG
+========================================167
+Is the wife of president Obama called Michelle?
+-------LAT-------
+3	wife	wife	NN	_	7	nsubjpass	7:A1=PPT
+6	Obama	obama	NNP	_	4	pobj	_
+8	Michelle	michelle	NNP	_	7	oprd	7:A2=PRD
+-------/LAT------
+3	wife	wife	NN	_	7	nsubjpass	7:A1=PPT
+8	Michelle	michelle	NNP	_	7	oprd	7:A2=PRD
+6	Obama	obama	NNP	_	4	pobj	_
+7	called	call	VBN	p2=VBN|pb=call.01	0	root	_
+5	president	president	NN	_	6	nn	_
+========================================168
+Give me all films produced by Hal Roach.
+-------LAT-------
+4	films	film	NNS	_	1	dobj	1:A1=PPT;5:A1
+8	Roach	roach	NNP	_	6	pobj	_
+-------/LAT------
+7	Hal	hal	NNP	_	8	nn	_
+4	films	film	NNS	_	1	dobj	1:A1=PPT;5:A1
+1	Give	give	VB	pb=give.01	0	root	_
+5	produced	produce	VBN	pb=produce.01	4	partmod	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+8	Roach	roach	NNP	_	6	pobj	_
+========================================169
+Give me all video games published by Mean Hamster Software.
+-------LAT-------
+5	games	game	NNS	_	1	dobj	1:A1=PPT;6:A1=PRD
+10	Software	software	NNP	_	7	pobj	_
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+5	games	game	NNS	_	1	dobj	1:A1=PPT;6:A1=PRD
+9	Hamster	hamster	NNP	_	10	nn	_
+10	Software	software	NNP	_	7	pobj	_
+4	video	video	NN	p2=JJ	5	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+8	Mean	mean	NNP	_	10	nn	_
+6	published	publish	VBN	pb=publish.01	5	partmod	_
+========================================170
+Which languages are spoken in Estonia?
+-------LAT-------
+2	languages	language	NNS	_	4	nsubjpass	4:A1=PPT
+6	Estonia	estonia	NNP	_	5	pobj	_
+-------/LAT------
+4	spoken	speak	VBN	pb=speak.01	0	root	_
+2	languages	language	NNS	_	4	nsubjpass	4:A1=PPT
+1	Which	which	WDT	_	2	det	_
+========================================171
+How many Aldi stores are there?
+-------LAT-------
+4	stores	store	NNS	_	5	nsubj	5:A1=PPT
+-------/LAT------
+5	are	be	VBP	pb=be.01	0	root	_
+4	stores	store	NNS	_	5	nsubj	5:A1=PPT
+1	How	how	WRB	_	2	advmod	_
+6	there	there	RB	p2=EX	5	advmod	5:A2=PRD
+3	Aldi	aldi	NNP	p2=JJ	4	nn	_
+2	many	many	JJ	_	4	amod	_
+========================================172
+Which capitals in Europe were host cities of the summer olympic games?
+-------LAT-------
+2	capitals	capital	NNS	_	5	nsubj	5:R-A1
+4	Europe	europe	NNP	_	3	pobj	_
+7	cities	city	NNS	_	5	attr	5:A2=PRD
+12	games	game	NNS	_	8	pobj	_
+-------/LAT------
+2	capitals	capital	NNS	_	5	nsubj	5:R-A1
+5	were	be	VBD	pb=be.01	0	root	_
+10	summer	summer	NN	_	12	nn	_
+4	Europe	europe	NNP	_	3	pobj	_
+1	Which	which	WDT	_	2	det	_
+11	olympic	olympic	JJ	p2=NN	12	amod	_
+6	host	host	NN	p2=JJ	7	nn	_
+7	cities	city	NNS	_	5	attr	5:A2=PRD
+12	games	game	NNS	_	8	pobj	_
+========================================173
+Who was the first president of the United States?
+-------LAT-------
+5	president	president	NN	_	2	attr	2:A2=PRD
+9	States	states	NNP	_	6	pobj	_
+-------/LAT------
+9	States	states	NNP	_	6	pobj	_
+8	United	united	NNP	_	9	nn	_
+2	was	be	VBD	pb=be.01	0	root	_
+4	first	#ord#	JJ	_	5	amod	_
+5	president	president	NN	_	2	attr	2:A2=PRD
+1	Who	who	WP	p2=NNP	2	nsubj	2:R-A1
+========================================174
+How many films did Hal Roach produce?
+-------LAT-------
+3	films	film	NNS	_	7	dobj	7:R-A1
+6	Roach	roach	NNP	p2=VB	7	nsubj	7:A0=PAG
+-------/LAT------
+6	Roach	roach	NNP	p2=VB	7	nsubj	7:A0=PAG
+1	How	how	WRB	_	2	advmod	_
+5	Hal	hal	NNP	_	6	nn	_
+3	films	film	NNS	_	7	dobj	7:R-A1
+2	many	many	JJ	_	3	amod	_
+7	produce	produce	VB	pb=produce.01	0	root	_
+========================================175
+Which music albums contain the song Last Christmas?
+-------LAT-------
+3	albums	album	NNS	_	4	nsubj	4:A0
+6	song	song	NN	_	4	dobj	4:A1
+8	Christmas	christmas	NNP	_	4	npadvmod	4:AM-TMP
+-------/LAT------
+3	albums	album	NNS	_	4	nsubj	4:A0
+1	Which	which	WDT	_	2	det	_
+6	song	song	NN	_	4	dobj	4:A1
+2	music	music	NN	_	3	nn	_
+4	contain	contain	VBP	pb=contain.01	0	root	_
+7	Last	last	JJ	p2=NNP	8	amod	_
+========================================176
+Give me all books written by Danielle Steel.
+-------LAT-------
+4	books	book	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+8	Steel	steel	NNP	_	6	pobj	_
+-------/LAT------
+5	written	write	VBN	pb=write.01	4	partmod	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+7	Danielle	danielle	NNP	_	8	nn	_
+8	Steel	steel	NNP	_	6	pobj	_
+1	Give	give	VB	pb=give.01	0	root	_
+4	books	book	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+========================================177
+Which airports are located in California, USA?
+-------LAT-------
+2	airports	airport	NNS	_	4	nsubjpass	4:A1=PPT
+6	California	california	NNP	_	5	pobj	_
+-------/LAT------
+8	USA	usa	NNP	_	6	npadvmod	_
+2	airports	airport	NNS	_	4	nsubjpass	4:A1=PPT
+1	Which	which	WDT	_	2	det	_
+4	located	locate	VBN	pb=locate.01	0	root	_
+========================================178
+Which states of Germany are governed by the Social Democratic Party?
+-------LAT-------
+2	states	state	NNS	_	6	nsubjpass	6:R-A1
+4	Germany	germany	NNP	_	3	pobj	_
+11	Party	party	NNP	_	7	pobj	_
+-------/LAT------
+7	by	by	IN	_	6	agent	6:A0=PAG
+9	Social	social	NNP	_	10	nn	_
+2	states	state	NNS	_	6	nsubjpass	6:R-A1
+4	Germany	germany	NNP	_	3	pobj	_
+1	Which	which	WDT	_	2	det	_
+10	Democratic	democratic	NNP	_	11	nn	_
+6	governed	govern	VBN	pb=govern.01	0	root	_
+========================================179
+Give me all Canadian Grunge record labels.
+-------LAT-------
+7	labels	label	NNS	p2=VBZ	1	dobj	1:A1=PPT
+-------/LAT------
+5	Grunge	grunge	NNP	p2=JJ	7	nn	_
+6	record	record	NN	_	7	nn	_
+7	labels	label	NNS	p2=VBZ	1	dobj	1:A1=PPT
+4	Canadian	canadian	JJ	p2=NNP	7	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================180
+Which country has the most official languages?
+-------LAT-------
+2	country	country	NN	_	3	nsubj	3:R-A0
+7	languages	language	NNS	_	3	dobj	3:A1=PPT
+-------/LAT------
+3	has	have	VBZ	pb=have.03	0	root	_
+5	most	most	JJS	p2=RBS	7	amod	_
+6	official	official	JJ	p2=NN	7	amod	_
+1	Which	which	WDT	_	2	det	_
+2	country	country	NN	_	3	nsubj	3:R-A0
+7	languages	language	NNS	_	3	dobj	3:A1=PPT
+========================================181
+In which programming language is GIMP written?
+-------LAT-------
+4	language	language	NN	_	5	nsubj	5:A1=PPT;7:A1=PPT
+6	GIMP	gimp	NNP	_	7	nsubjpass	_
+-------/LAT------
+3	programming	programming	NN	p2=VBG	4	nn	_
+7	written	write	VBN	pb=write.01	5	acomp	5:A2=PRD
+4	language	language	NN	_	5	nsubj	5:A1=PPT;7:A1=PPT
+5	is	be	VBZ	pb=be.01	0	root	_
+========================================182
+Who produced films starring Natalie Portman?
+-------LAT-------
+3	films	film	NNS	_	2	dobj	2:A1
+6	Portman	portman	NNP	_	4	dobj	4:A1=PAG
+-------/LAT------
+6	Portman	portman	NNP	_	4	dobj	4:A1=PAG
+1	Who	who	WP	_	2	nsubj	2:R-A0
+2	produced	produce	VBD	pb=produce.01	0	root	_
+4	starring	star	VBG	pb=star.01	3	partmod	_
+5	Natalie	natalie	NNP	_	6	nn	_
+3	films	film	NNS	_	2	dobj	2:A1
+========================================183
+Give me all movies with Tom Cruise.
+-------LAT-------
+4	movies	movie	NNS	_	1	dobj	1:A1=PPT
+7	Cruise	cruise	NNP	_	5	pobj	_
+-------/LAT------
+4	movies	movie	NNS	_	1	dobj	1:A1=PPT
+1	Give	give	VB	pb=give.01	0	root	_
+6	Tom	tom	NNP	_	7	nn	_
+7	Cruise	cruise	NNP	_	5	pobj	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+========================================184
+In which films did Julia Roberts as well as Richard Gere play?
+-------LAT-------
+3	films	film	NNS	_	12	nsubj	12:A0=PAG
+6	Roberts	roberts	NNP	_	4	dobj	_
+-------/LAT------
+4	did	do	VBD	_	12	aux	_
+10	Richard	richard	NNP	_	11	nn	_
+3	films	film	NNS	_	12	nsubj	12:A0=PAG
+5	Julia	julia	NNP	_	6	nn	_
+12	play	play	VB	p2=NN|pb=play.01	0	root	_
+11	Gere	gere	NNP	_	6	conj	_
+========================================185
+Give me all female given names.
+-------LAT-------
+6	names	name	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+-------/LAT------
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+6	names	name	NNS	_	1	dobj	1:A1=PPT;5:A1=PPT
+4	female	female	JJ	_	6	amod	_
+1	Give	give	VB	pb=give.01	0	root	_
+5	given	give	VBN	pb=give.01	6	amod	_
+========================================186
+Who wrote the book The Pillars of the Earth?
+-------LAT-------
+4	book	book	NN	_	2	dobj	2:A1=PPT
+9	Earth	earth	NNP	_	7	pobj	_
+-------/LAT------
+1	Who	who	WP	_	2	nsubj	2:R-A0
+9	Earth	earth	NNP	_	7	pobj	_
+4	book	book	NN	_	2	dobj	2:A1=PPT
+6	Pillars	pillar	NNPS	p2=NNS	4	appos	_
+2	wrote	write	VBD	pb=write.01	0	root	_
+========================================187
+How many films did Leonardo DiCaprio star in?
+-------LAT-------
+3	films	film	NNS	_	8	pobj	_
+6	DiCaprio	dicaprio	NNP	p2=VB	7	nsubj	7:A1=PAG
+-------/LAT------
+1	How	how	WRB	_	2	advmod	_
+2	many	many	JJ	_	3	amod	_
+6	DiCaprio	dicaprio	NNP	p2=VB	7	nsubj	7:A1=PAG
+8	in	in	IN	p2=RP	7	advmod	7:R-A2=GOL
+5	Leonardo	leonardo	NNP	_	6	nn	_
+7	star	star	VB	p2=NN|pb=star.01	0	root	_
+========================================188
+Give me all soccer clubs in the Premier League.
+-------LAT-------
+5	clubs	club	NNS	_	1	dobj	1:A1=PPT
+9	League	league	NNP	_	6	pobj	_
+-------/LAT------
+5	clubs	club	NNS	_	1	dobj	1:A1=PPT
+9	League	league	NNP	_	6	pobj	_
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+8	Premier	premier	NNP	_	9	nn	_
+4	soccer	soccer	NN	_	5	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+========================================189
+In which U.S. state is Mount McKinley located?
+-------LAT-------
+4	state	state	NN	_	5	nsubj	5:A1=PPT
+7	McKinley	mckinley	NNP	_	5	attr	8:A1=PPT;5:A2=PRD
+-------/LAT------
+6	Mount	mount	NNP	_	7	nn	_
+5	is	be	VBZ	pb=be.01	0	root	_
+7	McKinley	mckinley	NNP	_	5	attr	8:A1=PPT;5:A2=PRD
+3	U.S.	u.s.	NNP	_	4	nn	_
+8	located	locate	VBN	pb=locate.01	7	partmod	_
+4	state	state	NN	_	5	nsubj	5:A1=PPT
+========================================190
+When was Capcom founded?
+-------LAT-------
+3	Capcom	capcom	NNP	_	4	nsubjpass	4:A1=PPT
+-------/LAT------
+3	Capcom	capcom	NNP	_	4	nsubjpass	4:A1=PPT
+4	founded	found	VBN	p2=VBN|pb=found.01	0	root	_
+========================================191
+Which organizations were founded in 1930?
+-------LAT-------
+2	organizations	organization	NNS	_	4	nsubjpass	4:R-A1
+-------/LAT------
+4	founded	found	VBN	pb=found.01	0	root	_
+2	organizations	organization	NNS	_	4	nsubjpass	4:R-A1
+1	Which	which	WDT	_	2	det	_
+========================================192
+What is the highest mountain?
+-------LAT-------
+5	mountain	mountain	NN	_	2	nsubj	2:A1=PPT
+-------/LAT------
+1	What	what	WP	_	2	attr	2:R-A2
+4	highest	high	JJS	_	5	amod	_
+2	is	be	VBZ	pb=be.01	0	root	_
+5	mountain	mountain	NN	_	2	nsubj	2:A1=PPT
+========================================193
+Was Natalie Portman born in the United States?
+-------LAT-------
+3	Portman	portman	NNP	_	4	nsubjpass	4:A1=PPT
+8	States	states	NNP	_	5	pobj	_
+-------/LAT------
+4	born	bear	VBN	pb=bear.02	0	root	_
+3	Portman	portman	NNP	_	4	nsubjpass	4:A1=PPT
+2	Natalie	natalie	NNP	_	3	nn	_
+7	United	united	NNP	_	8	nn	_
+========================================194
+Which budget did the first movie of Zdenek Sverak have?
+-------LAT-------
+2	budget	budget	NN	_	3	nsubj	3:R-A0
+6	movie	movie	NN	_	3	dobj	3:A1=PPT
+9	Sverak	sverak	NNP	_	7	pobj	_
+-------/LAT------
+9	Sverak	sverak	NNP	_	7	pobj	_
+2	budget	budget	NN	_	3	nsubj	3:R-A0
+10	have	have	VB	p2=VBP|pb=have.03	6	rcmod	_
+6	movie	movie	NN	_	3	dobj	3:A1=PPT
+8	Zdenek	zdenek	NNP	_	9	nn	_
+3	did	do	VBD	pb=do.02	0	root	_
+1	Which	which	WDT	_	2	det	_
+5	first	#ord#	JJ	_	6	amod	_
+========================================195
+How many big fires struck Paris during the Middle Ages?
+-------LAT-------
+4	fires	fire	NNS	_	5	nsubj	5:A0=PAG
+6	Paris	paris	NNP	_	5	dobj	5:A1=PPT
+10	Ages	age	NNPS	_	7	pobj	_
+-------/LAT------
+9	Middle	middle	NNP	_	10	nn	_
+2	many	many	JJ	_	4	amod	_
+5	struck	strike	VBD	pb=strike.01	0	root	_
+4	fires	fire	NNS	_	5	nsubj	5:A0=PAG
+6	Paris	paris	NNP	_	5	dobj	5:A1=PPT
+1	How	how	WRB	_	2	advmod	_
+3	big	big	JJ	_	4	amod	_
+========================================196
+Is Jens Friebe a vegan?
+-------LAT-------
+3	Friebe	friebe	NNP	p2=VB	1	nsubj	1:A1=PPT
+5	vegan	vegan	NN	_	1	attr	1:A2=PRD
+-------/LAT------
+2	Jens	jens	NNP	p2=NNPS	3	nn	_
+5	vegan	vegan	NN	_	1	attr	1:A2=PRD
+3	Friebe	friebe	NNP	p2=VB	1	nsubj	1:A1=PPT
+1	Is	be	VBZ	pb=be.01	0	root	_
+========================================197
+How often was Michael Jordan divorced?
+-------LAT-------
+5	Jordan	jordan	NNP	_	6	nsubjpass	6:A1=COM
+-------/LAT------
+6	divorced	divorce	VBN	p2=VBD|pb=divorce.01	0	root	_
+4	Michael	michael	NNP	_	5	nn	_
+5	Jordan	jordan	NNP	_	6	nsubjpass	6:A1=COM
+========================================198
+What is the most beautiful painting?
+-------LAT-------
+6	painting	painting	NN	_	2	nsubj	2:A1=PPT
+-------/LAT------
+1	What	what	WP	_	2	attr	2:R-A2
+5	beautiful	beautiful	JJ	_	6	amod	_
+2	is	be	VBZ	pb=be.01	0	root	_
+6	painting	painting	NN	_	2	nsubj	2:A1=PPT
+========================================199
+Give me all animal species that live in the Teutoburg Forest.
+-------LAT-------
+5	species	species	NNS	_	1	dobj	7:A0=PAG;1:A1=PPT
+11	Forest	forest	NNP	_	8	pobj	_
+-------/LAT------
+11	Forest	forest	NNP	_	8	pobj	_
+7	live	live	VBP	pb=live.01	5	rcmod	_
+4	animal	animal	NN	p2=JJ	5	nn	_
+1	Give	give	VB	pb=give.01	0	root	_
+5	species	species	NNS	_	1	dobj	7:A0=PAG;1:A1=PPT
+2	me	me	PRP	_	1	iobj	1:A2=GOL
+10	Teutoburg	teutoburg	NNP	_	11	nn	_
+6	that	that	WDT	_	7	nsubj	7:R-A0
+========================================200
