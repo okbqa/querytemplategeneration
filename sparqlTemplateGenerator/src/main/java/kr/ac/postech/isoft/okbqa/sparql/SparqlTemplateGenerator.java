@@ -126,16 +126,6 @@ public class SparqlTemplateGenerator {
 		// rule1 : collect nouns that its head is not a noun.
 		// rule2 : collect verbs
 		// traverse nodes
-		
-		
-//		it = collectedNNodes.iterator();
-//		while(it.hasNext()){
-//			DEPNode currNode=it.next();
-//			for(DEPNode DN: currNode.getDependentNodeList())
-//			{
-//				if(DN.pos.contains(s)
-//			}
-//		}
 		DEPNode root = parsed.getRoots().get(0);
 		// on pos level.
 		Iterator<DEPNode> it = parsed.iterator();
@@ -179,17 +169,12 @@ public class SparqlTemplateGenerator {
 			collectDecendants(latNode, decendantForLatNode, 0);
 			collectAncestors(latNode, headForLatNode, 0);
 		}
-		List<DEPNode> union = union(decendantForLatNode, union(headForLatNode, collectedArgNodes));
-		r.append("-------LAT-------\n");
-		for(DEPNode node : collectedLATNodes) {
-			r.append(node.toStringSRL() + "\n");
-		}
-		r.append("-------/LAT------\n");
 		
-		for(DEPNode node: union)
-		{
-			r.append(node.toStringSRL()+"\n");
-			//System.out.println(node.toStringSRL()+"\n");
-		}
+		// extracted focus from query string
+		List<DEPNode> union = union(decendantForLatNode, union(headForLatNode, collectedArgNodes));
+		
+		// TODO : generate graph pattern from focus information.
+		
+		// TODO : extract slot information from focus information.
 	}
 }
